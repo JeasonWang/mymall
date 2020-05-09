@@ -9,18 +9,21 @@
     </parent>
 
     <groupId>com.jeason</groupId>
-    <artifactId>mymall-security</artifactId>
+    <artifactId>mymall-admin</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>mymall-security</name>
+    <name>mymall-admin</name>
     <description>Demo project for Spring Boot</description>
     <packaging>jar</packaging>
 
     <dependencies>
         <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-security</artifactId>
+            <groupId>com.jeason</groupId>
+            <artifactId>mymall-mbg</artifactId>
         </dependency>
-
+        <dependency>
+            <groupId>com.jeason</groupId>
+            <artifactId>mymall-security</artifactId>
+        </dependency>
     </dependencies>
 
 </project>

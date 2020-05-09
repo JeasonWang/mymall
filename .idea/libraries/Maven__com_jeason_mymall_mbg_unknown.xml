@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.jeason:mymall-mbg:unknown">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/jeason/mymall-mbg/unknown/mymall-mbg-unknown.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/jeason/mymall-mbg/unknown/mymall-mbg-unknown-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/jeason/mymall-mbg/unknown/mymall-mbg-unknown-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

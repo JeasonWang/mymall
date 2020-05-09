@@ -3,6 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/mymall.iml" filepath="$PROJECT_DIR$/mymall.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mymall-admin/mymall-admin.iml" filepath="$PROJECT_DIR$/mymall-admin/mymall-admin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mymall-common/mymall-common.iml" filepath="$PROJECT_DIR$/mymall-common/mymall-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mymall-mbg/mymall-mbg.iml" filepath="$PROJECT_DIR$/mymall-mbg/mymall-mbg.iml" />
       <module fileurl="file://$PROJECT_DIR$/mymall-security/mymall-security.iml" filepath="$PROJECT_DIR$/mymall-security/mymall-security.iml" />
     </modules>
   </component>

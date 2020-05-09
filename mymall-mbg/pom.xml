@@ -7,20 +7,21 @@
         <groupId>com.jeason</groupId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
-
     <groupId>com.jeason</groupId>
-    <artifactId>mymall-security</artifactId>
+    <artifactId>mymall-mbg</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>mymall-security</name>
+    <name>mymall-mbg</name>
     <description>Demo project for Spring Boot</description>
     <packaging>jar</packaging>
 
     <dependencies>
         <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-security</artifactId>
+            <groupId>org.mybatis.spring.boot</groupId>
+            <artifactId>mybatis-spring-boot-starter</artifactId>
+            <version>2.1.2</version>
         </dependency>
 
     </dependencies>
+
 
 </project>

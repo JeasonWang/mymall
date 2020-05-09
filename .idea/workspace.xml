@@ -2,16 +2,46 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f2d1aa23-8680-424f-891f-1a0e3d640e3d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/mymall-security/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mymall-security/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mymall-security/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mymall-security/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mymall-security/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mymall-security/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mymall-security/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mymall-security/src/main/java/com/jeason/mymallsecurity/MymallSecurityApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mymall-security/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mymall-security/src/test/java/com/jeason/mymallsecurity/MymallSecurityApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jeason_mymall_mbg_unknown.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jeason_mymall_security_unknown.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mymall-admin/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mymall-admin/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mymall-admin/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mymall-admin/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mymall-admin/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mymall-admin/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mymall-admin/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mymall-admin/src/main/java/com/jeason/mymalladmin/MymallAdminApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mymall-admin/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mymall-admin/src/test/java/com/jeason/mymalladmin/MymallAdminApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mymall-common/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mymall-common/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mymall-common/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mymall-common/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mymall-common/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mymall-common/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mymall-common/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mymall-common/src/main/java/com/jeason/mymallcommon/MymallCommonApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mymall-common/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mymall-common/src/test/java/com/jeason/mymallcommon/MymallCommonApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mymall-mbg/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mymall-mbg/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mymall-mbg/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mymall-mbg/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mymall-mbg/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mymall-mbg/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mymall-mbg/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mymall-mbg/src/main/java/com/jeason/mymallmbg/MymallMbgApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mymall-mbg/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mymall-mbg/src/test/java/com/jeason/mymallmbg/MymallMbgApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mymall-security/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mymall-security/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mymall.iml" beforeDir="false" afterPath="$PROJECT_DIR$/mymall.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,14 +76,29 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
-  <component name="RunManager" selected="Spring Boot.MymallApplication">
-    <configuration name="MymallApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="mymall" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jeason.mymall.MymallApplication" />
+  <component name="RunManager" selected="Spring Boot.MymallCommonApplication">
+    <configuration name="MymallAdminApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="mymall-admin" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jeason.mymalladmin.MymallAdminApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MymallCommonApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="mymall-common" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jeason.mymallcommon.MymallCommonApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MymallMbgApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="mymall-mbg" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jeason.mymallmbg.MymallMbgApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -65,6 +110,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Spring Boot.MymallAdminApplication" />
+      <item itemvalue="Spring Boot.MymallCommonApplication" />
+      <item itemvalue="Spring Boot.MymallSecurityApplication" />
+      <item itemvalue="Spring Boot.MymallMbgApplication" />
+    </list>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -78,8 +129,23 @@
       <updated>1589032868482</updated>
       <workItem from="1589032881017" duration="254000" />
       <workItem from="1589033177062" duration="390000" />
-      <workItem from="1589033582918" duration="241000" />
+      <workItem from="1589033582918" duration="1696000" />
     </task>
+    <task id="LOCAL-00001" summary="搭建demo">
+      <created>1589033864911</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1589033864911</updated>
+    </task>
+    <task id="LOCAL-00002" summary="搭建demo">
+      <created>1589033886668</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1589033886668</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -87,23 +153,33 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="搭建demo" />
+    <option name="LAST_COMMIT_MESSAGE" value="搭建demo" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="223" y="73" width="1164" height="688" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589034340199">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="223" y="73" width="1164" height="688" key="#com.intellij.execution.impl.EditConfigurationsDialog/-2160.-154.1440.935/0.0.1536.834@0.0.1536.834" timestamp="1589034340199" />
     <state x="499" y="164" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1589033758789">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="499" y="164" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-2160.-154.1440.935/0.0.1536.834@0.0.1536.834" timestamp="1589033758789" />
-    <state x="372" y="11" key="CommitChangelistDialog2" timestamp="1589033864402">
+    <state x="372" y="11" key="CommitChangelistDialog2" timestamp="1589035342249">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="372" y="11" key="CommitChangelistDialog2/-2160.-154.1440.935/0.0.1536.834@0.0.1536.834" timestamp="1589033864402" />
+    <state x="372" y="11" key="CommitChangelistDialog2/-2160.-154.1440.935/0.0.1536.834@0.0.1536.834" timestamp="1589035342249" />
     <state x="270" y="60" key="SettingsEditor" timestamp="1589032976015">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="270" y="60" key="SettingsEditor/-2160.-154.1440.935/0.0.1536.834@0.0.1536.834" timestamp="1589032976015" />
-    <state x="178" y="119" key="new project wizard" timestamp="1589033651859">
+    <state x="361" y="151" key="Vcs.Push.Dialog.v2" timestamp="1589033898712">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="178" y="119" key="new project wizard/-2160.-154.1440.935/0.0.1536.834@0.0.1536.834" timestamp="1589033651859" />
+    <state x="361" y="151" key="Vcs.Push.Dialog.v2/-2160.-154.1440.935/0.0.1536.834@0.0.1536.834" timestamp="1589033898712" />
+    <state x="178" y="119" key="new project wizard" timestamp="1589034425621">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="178" y="119" key="new project wizard/-2160.-154.1440.935/0.0.1536.834@0.0.1536.834" timestamp="1589034425621" />
   </component>
 </project>

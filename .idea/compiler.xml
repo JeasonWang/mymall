@@ -7,18 +7,26 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="mymall" />
         <module name="mymall-security" />
+        <module name="mymall-admin" />
+        <module name="mymall-mbg" />
+        <module name="mymall-common" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="mymall" target="1.8" />
+      <module name="mymall-admin" target="1.8" />
+      <module name="mymall-common" target="1.8" />
+      <module name="mymall-mbg" target="1.8" />
       <module name="mymall-security" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="mymall" options="-parameters" />
+      <module name="mymall-admin" options="-parameters" />
+      <module name="mymall-common" options="-parameters" />
+      <module name="mymall-mbg" options="-parameters" />
       <module name="mymall-security" options="-parameters" />
     </option>
   </component>
