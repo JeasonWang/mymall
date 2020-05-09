@@ -7,18 +7,27 @@
         <groupId>com.jeason</groupId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
+
     <groupId>com.jeason</groupId>
     <artifactId>mymall-mbg</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>mymall-mbg</name>
-    <description>Demo project for Spring Boot</description>
     <packaging>jar</packaging>
 
     <dependencies>
         <dependency>
+            <groupId>com.jeason</groupId>
+            <artifactId>mymall-common</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+        <dependency>
             <groupId>org.mybatis.spring.boot</groupId>
             <artifactId>mybatis-spring-boot-starter</artifactId>
             <version>2.1.2</version>
+        </dependency>
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
         </dependency>
 
     </dependencies>
