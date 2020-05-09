@@ -32,10 +32,9 @@
 
         <javaModelGenerator targetPackage="com.jeason.mymallmbg.model" targetProject="mymall-mbg\src\main\java"/>
 
-        <sqlMapGenerator targetPackage="com.jeason.mymallmbg.mapper" targetProject="mymall-mbg\src\main\resources"/>
+        <sqlMapGenerator targetPackage="mapper" targetProject="mymall-mbg\src\main\resources"/>
 
-        <javaClientGenerator type="XMLMAPPER" targetPackage="mapper"
-                             targetProject="mymall-mbg\src\main\java"/>
+        <javaClientGenerator type="XMLMAPPER" targetPackage="com.jeason.mymallmbg.mapper" targetProject="mymall-mbg\src\main\java"/>
         <!--生成全部表tableName设为%-->
         <table tableName="%">
             <generatedKey column="id" sqlStatement="MySql" identity="true"/>
