@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f2d1aa23-8680-424f-891f-1a0e3d640e3d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/mymall-security/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mymall-security/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mymall-security/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mymall-security/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mymall-security/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mymall-security/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mymall-security/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mymall-security/src/main/java/com/jeason/mymallsecurity/MymallSecurityApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mymall-security/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mymall-security/src/test/java/com/jeason/mymallsecurity/MymallSecurityApplicationTests.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/Program Files/Maven/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="D:\Program Files\Maven\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1bfpBhJ5g8KiWVnFE8voYQKytEU" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RunManager" selected="Spring Boot.MymallApplication">
+    <configuration name="MymallApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="mymall" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jeason.mymall.MymallApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MymallSecurityApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="mymall-security" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jeason.mymallsecurity.MymallSecurityApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f2d1aa23-8680-424f-891f-1a0e3d640e3d" name="Default Changelist" comment="" />
+      <created>1589032868482</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1589032868482</updated>
+      <workItem from="1589032881017" duration="254000" />
+      <workItem from="1589033177062" duration="390000" />
+      <workItem from="1589033582918" duration="241000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="499" y="164" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1589033758789">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="499" y="164" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-2160.-154.1440.935/0.0.1536.834@0.0.1536.834" timestamp="1589033758789" />
+    <state x="372" y="11" key="CommitChangelistDialog2" timestamp="1589033864402">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="372" y="11" key="CommitChangelistDialog2/-2160.-154.1440.935/0.0.1536.834@0.0.1536.834" timestamp="1589033864402" />
+    <state x="270" y="60" key="SettingsEditor" timestamp="1589032976015">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="270" y="60" key="SettingsEditor/-2160.-154.1440.935/0.0.1536.834@0.0.1536.834" timestamp="1589032976015" />
+    <state x="178" y="119" key="new project wizard" timestamp="1589033651859">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="178" y="119" key="new project wizard/-2160.-154.1440.935/0.0.1536.834@0.0.1536.834" timestamp="1589033651859" />
+  </component>
+</project>
