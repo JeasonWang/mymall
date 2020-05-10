@@ -27,9 +27,11 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <java.version>1.8</java.version>
+
         <skipTests>true</skipTests>
         <docker.host>http://192.168.3.101:2375</docker.host>
         <docker.maven.plugin.version>1.1.0</docker.maven.plugin.version>
+
         <pagehelper-starter.version>1.2.10</pagehelper-starter.version>
         <pagehelper.version>5.1.8</pagehelper.version>
         <druid.version>1.1.10</druid.version>
@@ -43,9 +45,9 @@
         <aliyun-oss.version>2.5.0</aliyun-oss.version>
         <logstash-logback.version>4.8</logstash-logback.version>
         <minio.version>3.0.10</minio.version>
-        <mall-common.version>1.0-SNAPSHOT</mall-common.version>
-        <mall-mbg.version>1.0-SNAPSHOT</mall-mbg.version>
-        <mall-security.version>1.0-SNAPSHOT</mall-security.version>
+        <mymall-common.version>0.0.1-SNAPSHOT</mymall-common.version>
+        <mymall-mbg.version>0.0.1-SNAPSHOT</mymall-mbg.version>
+        <mymall-security.version>0.0.1-SNAPSHOT</mymall-security.version>
     </properties>
 
     <dependencies>
@@ -76,26 +78,26 @@
         </dependency>
     </dependencies>
 
-    //只声明不加载包，目的是确定版本号
+    <!--只声明不加载包，目的是确定版本号-->
     <dependencyManagement>
         <dependencies>
-            <!--mall通用模块-->
+            <!--mymall通用模块-->
             <dependency>
-                <groupId>com.macro.mall</groupId>
-                <artifactId>mall-common</artifactId>
-                <version>${mall-common.version}</version>
+                <groupId>com.jeason</groupId>
+                <artifactId>mymall-common</artifactId>
+                <version>${mymall-common.version}</version>
             </dependency>
-            <!--mall中MBG生成模块-->
+            <!--mymall中MBG生成模块-->
             <dependency>
-                <groupId>com.macro.mall</groupId>
-                <artifactId>mall-mbg</artifactId>
-                <version>${mall-mbg.version}</version>
+                <groupId>com.jeason</groupId>
+                <artifactId>mymall-mbg</artifactId>
+                <version>${mymall-mbg.version}</version>
             </dependency>
-            <!--mall安全模块-->
+            <!--mymall安全模块-->
             <dependency>
-                <groupId>com.macro.mall</groupId>
-                <artifactId>mall-security</artifactId>
-                <version>${mall-security.version}</version>
+                <groupId>com.jeason</groupId>
+                <artifactId>mymall-security</artifactId>
+                <version>${mymall-security.version}</version>
             </dependency>
             <!--MyBatis分页插件starter-->
             <dependency>
@@ -182,14 +184,5 @@
             </dependency>
         </dependencies>
     </dependencyManagement>
-
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-            </plugin>
-        </plugins>
-    </build>
 
 </project>

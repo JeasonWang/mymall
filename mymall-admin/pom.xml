@@ -17,13 +17,31 @@
 
     <dependencies>
         <dependency>
-            <groupId>com.jeason</groupId>
-            <artifactId>mymall-mbg</artifactId>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-devtools</artifactId>
+            <optional>true</optional>
+            <scope>true</scope>
         </dependency>
         <dependency>
             <groupId>com.jeason</groupId>
-            <artifactId>mymall-security</artifactId>
+            <artifactId>mymall-mbg</artifactId>
         </dependency>
+<!--        <dependency>-->
+<!--            <groupId>com.jeason</groupId>-->
+<!--            <artifactId>mymall-security</artifactId>-->
+<!--        </dependency>-->
     </dependencies>
 
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+                <configuration>
+                    <fork>true</fork>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
 </project>
+

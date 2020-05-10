@@ -2,349 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f2d1aa23-8680-424f-891f-1a0e3d640e3d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__cn_hutool_hutool_all_4_5_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_18_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_core_2_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_schema_2_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_spi_2_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_spring_web_2_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger2_2_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger_common_2_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger_ui_2_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_annotations_1_5_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_models_1_5_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_21_0_GA.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mapstruct_mapstruct_1_1_0_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_reflections_reflections_0_9_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_core_1_2_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_metadata_1_2_0_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_lettuce_lettuce_core_5_2_2_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_buffer_4_1_49_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_4_1_49_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_common_4_1_49_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_4_1_49_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_resolver_4_1_49_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_4_1_49_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_projectreactor_reactor_core_3_3_5_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_reactivestreams_reactive_streams_1_0_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_redis_2_2_7_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_keyvalue_2_2_7_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_redis_2_2_7_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_5_2_6_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_oxm_5_2_6_RELEASE.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_devtools_2_2_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mymall-admin/src/main/java/com/jeason/mymalladmin/config/GlobalCorsConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mymall-admin/src/main/java/com/jeason/mymalladmin/config/MyMallSecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mymall-admin/src/main/java/com/jeason/mymalladmin/controller/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mymall-admin/src/main/java/com/jeason/mymalladmin/service/UmsAdminService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mymall-admin/src/main/java/com/jeason/mymalladmin/service/impl/UmsAdminServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mymall-common/src/main/java/com/jeason/mymallcommon/api/ResultCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mymall-security/src/main/java/com/jeason/mymallsecurity/config/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mymall-security/src/main/java/com/jeason/mymallsecurity/util/JwtTokenUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_jeason_mymall_mbg_unknown.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_jeason_mymall_security_unknown.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-common/mymall-common.iml" beforeDir="false" afterPath="$PROJECT_DIR$/mymall-common/mymall-common.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mymall-common/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/mymall-mbg.iml" beforeDir="false" afterPath="$PROJECT_DIR$/mymall-mbg/mymall-mbg.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/com/jeason/mymallmbg/CommentGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/mymall-mbg/src/main/java/com/jeason/mymallmbg/CommentGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/com/jeason/mymallmbg/Generator.java" beforeDir="false" afterPath="$PROJECT_DIR$/mymall-mbg/src/main/java/com/jeason/mymallmbg/Generator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/com/jeason/mymallmbg/MymallMbgApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/com/jeason/mymallmbg/model/CmsHelp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/com/jeason/mymallmbg/model/CmsHelpCategory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/com/jeason/mymallmbg/model/CmsHelpCategoryExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/com/jeason/mymallmbg/model/CmsHelpExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/com/jeason/mymallmbg/model/CmsMemberReport.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/com/jeason/mymallmbg/model/CmsMemberReportExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/com/jeason/mymallmbg/model/CmsPrefrenceArea.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/com/jeason/mymallmbg/model/CmsPrefrenceAreaExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/com/jeason/mymallmbg/model/CmsPrefrenceAreaProductRelation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/com/jeason/mymallmbg/model/CmsPrefrenceAreaProductRelationExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/com/jeason/mymallmbg/model/CmsSubject.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/com/jeason/mymallmbg/model/CmsSubjectCategory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/com/jeason/mymallmbg/model/CmsSubjectCategoryExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/com/jeason/mymallmbg/model/CmsSubjectComment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/com/jeason/mymallmbg/model/CmsSubjectCommentExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/com/jeason/mymallmbg/model/CmsSubjectExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/com/jeason/mymallmbg/model/CmsSubjectProductRelation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/com/jeason/mymallmbg/model/CmsSubjectProductRelationExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/com/jeason/mymallmbg/model/CmsTopic.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/com/jeason/mymallmbg/model/CmsTopicCategory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/com/jeason/mymallmbg/model/CmsTopicCategoryExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/com/jeason/mymallmbg/model/CmsTopicComment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/com/jeason/mymallmbg/model/CmsTopicCommentExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/com/jeason/mymallmbg/model/CmsTopicExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/com/jeason/mymallmbg/model/OmsCartItem.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/com/jeason/mymallmbg/model/OmsCartItemExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/com/jeason/mymallmbg/model/OmsCompanyAddress.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/com/jeason/mymallmbg/model/OmsCompanyAddressExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/com/jeason/mymallmbg/model/OmsOrder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/com/jeason/mymallmbg/model/OmsOrderExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/com/jeason/mymallmbg/model/OmsOrderItem.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/com/jeason/mymallmbg/model/OmsOrderItemExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/com/jeason/mymallmbg/model/OmsOrderOperateHistory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/com/jeason/mymallmbg/model/OmsOrderOperateHistoryExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/com/jeason/mymallmbg/model/OmsOrderReturnApply.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/com/jeason/mymallmbg/model/OmsOrderReturnApplyExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/com/jeason/mymallmbg/model/OmsOrderReturnReason.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/com/jeason/mymallmbg/model/OmsOrderReturnReasonExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/com/jeason/mymallmbg/model/OmsOrderSetting.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/com/jeason/mymallmbg/model/OmsOrderSettingExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/com/jeason/mymallmbg/model/PmsAlbum.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/com/jeason/mymallmbg/model/PmsAlbumExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/com/jeason/mymallmbg/model/PmsAlbumPic.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/com/jeason/mymallmbg/model/PmsAlbumPicExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/com/jeason/mymallmbg/model/PmsBrand.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/com/jeason/mymallmbg/model/PmsBrandExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/com/jeason/mymallmbg/model/PmsComment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/com/jeason/mymallmbg/model/PmsCommentExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/com/jeason/mymallmbg/model/PmsCommentReplay.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/com/jeason/mymallmbg/model/PmsCommentReplayExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/com/jeason/mymallmbg/model/PmsFeightTemplate.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/com/jeason/mymallmbg/model/PmsFeightTemplateExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/com/jeason/mymallmbg/model/PmsMemberPrice.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/com/jeason/mymallmbg/model/PmsMemberPriceExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/com/jeason/mymallmbg/model/PmsProduct.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/com/jeason/mymallmbg/model/PmsProductAttribute.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/com/jeason/mymallmbg/model/PmsProductAttributeCategory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/com/jeason/mymallmbg/model/PmsProductAttributeCategoryExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/com/jeason/mymallmbg/model/PmsProductAttributeExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/com/jeason/mymallmbg/model/PmsProductAttributeValue.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/com/jeason/mymallmbg/model/PmsProductAttributeValueExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/com/jeason/mymallmbg/model/PmsProductCategory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/com/jeason/mymallmbg/model/PmsProductCategoryAttributeRelation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/com/jeason/mymallmbg/model/PmsProductCategoryAttributeRelationExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/com/jeason/mymallmbg/model/PmsProductCategoryExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/com/jeason/mymallmbg/model/PmsProductExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/com/jeason/mymallmbg/model/PmsProductFullReduction.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/com/jeason/mymallmbg/model/PmsProductFullReductionExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/com/jeason/mymallmbg/model/PmsProductLadder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/com/jeason/mymallmbg/model/PmsProductLadderExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/com/jeason/mymallmbg/model/PmsProductOperateLog.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/com/jeason/mymallmbg/model/PmsProductOperateLogExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/com/jeason/mymallmbg/model/PmsProductVertifyRecord.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/com/jeason/mymallmbg/model/PmsProductVertifyRecordExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/com/jeason/mymallmbg/model/PmsSkuStock.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/com/jeason/mymallmbg/model/PmsSkuStockExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/com/jeason/mymallmbg/model/SmsCoupon.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/com/jeason/mymallmbg/model/SmsCouponExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/com/jeason/mymallmbg/model/SmsCouponHistory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/com/jeason/mymallmbg/model/SmsCouponHistoryExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/com/jeason/mymallmbg/model/SmsCouponProductCategoryRelation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/com/jeason/mymallmbg/model/SmsCouponProductCategoryRelationExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/com/jeason/mymallmbg/model/SmsCouponProductRelation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/com/jeason/mymallmbg/model/SmsCouponProductRelationExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/com/jeason/mymallmbg/model/SmsFlashPromotion.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/com/jeason/mymallmbg/model/SmsFlashPromotionExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/com/jeason/mymallmbg/model/SmsFlashPromotionLog.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/com/jeason/mymallmbg/model/SmsFlashPromotionLogExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/com/jeason/mymallmbg/model/SmsFlashPromotionProductRelation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/com/jeason/mymallmbg/model/SmsFlashPromotionProductRelationExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/com/jeason/mymallmbg/model/SmsFlashPromotionSession.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/com/jeason/mymallmbg/model/SmsFlashPromotionSessionExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/com/jeason/mymallmbg/model/SmsHomeAdvertise.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/com/jeason/mymallmbg/model/SmsHomeAdvertiseExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/com/jeason/mymallmbg/model/SmsHomeBrand.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/com/jeason/mymallmbg/model/SmsHomeBrandExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/com/jeason/mymallmbg/model/SmsHomeNewProduct.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/com/jeason/mymallmbg/model/SmsHomeNewProductExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/com/jeason/mymallmbg/model/SmsHomeRecommendProduct.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/com/jeason/mymallmbg/model/SmsHomeRecommendProductExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/com/jeason/mymallmbg/model/SmsHomeRecommendSubject.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/com/jeason/mymallmbg/model/SmsHomeRecommendSubjectExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/com/jeason/mymallmbg/model/UmsAdmin.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/com/jeason/mymallmbg/model/UmsAdminExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/com/jeason/mymallmbg/model/UmsAdminLoginLog.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/com/jeason/mymallmbg/model/UmsAdminLoginLogExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/com/jeason/mymallmbg/model/UmsAdminPermissionRelation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/com/jeason/mymallmbg/model/UmsAdminPermissionRelationExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/com/jeason/mymallmbg/model/UmsAdminRoleRelation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/com/jeason/mymallmbg/model/UmsAdminRoleRelationExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/com/jeason/mymallmbg/model/UmsGrowthChangeHistory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/com/jeason/mymallmbg/model/UmsGrowthChangeHistoryExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/com/jeason/mymallmbg/model/UmsIntegrationChangeHistory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/com/jeason/mymallmbg/model/UmsIntegrationChangeHistoryExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/com/jeason/mymallmbg/model/UmsIntegrationConsumeSetting.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/com/jeason/mymallmbg/model/UmsIntegrationConsumeSettingExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/com/jeason/mymallmbg/model/UmsMember.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/com/jeason/mymallmbg/model/UmsMemberExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/com/jeason/mymallmbg/model/UmsMemberLevel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/com/jeason/mymallmbg/model/UmsMemberLevelExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/com/jeason/mymallmbg/model/UmsMemberLoginLog.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/com/jeason/mymallmbg/model/UmsMemberLoginLogExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/com/jeason/mymallmbg/model/UmsMemberMemberTagRelation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/com/jeason/mymallmbg/model/UmsMemberMemberTagRelationExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/com/jeason/mymallmbg/model/UmsMemberProductCategoryRelation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/com/jeason/mymallmbg/model/UmsMemberProductCategoryRelationExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/com/jeason/mymallmbg/model/UmsMemberReceiveAddress.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/com/jeason/mymallmbg/model/UmsMemberReceiveAddressExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/com/jeason/mymallmbg/model/UmsMemberRuleSetting.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/com/jeason/mymallmbg/model/UmsMemberRuleSettingExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/com/jeason/mymallmbg/model/UmsMemberStatisticsInfo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/com/jeason/mymallmbg/model/UmsMemberStatisticsInfoExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/com/jeason/mymallmbg/model/UmsMemberTag.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/com/jeason/mymallmbg/model/UmsMemberTagExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/com/jeason/mymallmbg/model/UmsMemberTask.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/com/jeason/mymallmbg/model/UmsMemberTaskExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/com/jeason/mymallmbg/model/UmsMenu.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/com/jeason/mymallmbg/model/UmsMenuExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/com/jeason/mymallmbg/model/UmsPermission.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/com/jeason/mymallmbg/model/UmsPermissionExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/com/jeason/mymallmbg/model/UmsResource.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/com/jeason/mymallmbg/model/UmsResourceCategory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/com/jeason/mymallmbg/model/UmsResourceCategoryExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/com/jeason/mymallmbg/model/UmsResourceExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/com/jeason/mymallmbg/model/UmsRole.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/com/jeason/mymallmbg/model/UmsRoleExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/com/jeason/mymallmbg/model/UmsRoleMenuRelation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/com/jeason/mymallmbg/model/UmsRoleMenuRelationExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/com/jeason/mymallmbg/model/UmsRolePermissionRelation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/com/jeason/mymallmbg/model/UmsRolePermissionRelationExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/com/jeason/mymallmbg/model/UmsRoleResourceRelation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/com/jeason/mymallmbg/model/UmsRoleResourceRelationExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/mapper/CmsHelpCategoryMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/mapper/CmsHelpMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/mapper/CmsMemberReportMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/mapper/CmsPrefrenceAreaMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/mapper/CmsPrefrenceAreaProductRelationMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/mapper/CmsSubjectCategoryMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/mapper/CmsSubjectCommentMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/mapper/CmsSubjectMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/mapper/CmsSubjectProductRelationMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/mapper/CmsTopicCategoryMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/mapper/CmsTopicCommentMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/mapper/CmsTopicMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/mapper/OmsCartItemMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/mapper/OmsCompanyAddressMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/mapper/OmsOrderItemMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/mapper/OmsOrderMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/mapper/OmsOrderOperateHistoryMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/mapper/OmsOrderReturnApplyMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/mapper/OmsOrderReturnReasonMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/mapper/OmsOrderSettingMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/mapper/PmsAlbumMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/mapper/PmsAlbumPicMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/mapper/PmsBrandMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/mapper/PmsCommentMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/mapper/PmsCommentReplayMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/mapper/PmsFeightTemplateMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/mapper/PmsMemberPriceMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/mapper/PmsProductAttributeCategoryMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/mapper/PmsProductAttributeMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/mapper/PmsProductAttributeValueMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/mapper/PmsProductCategoryAttributeRelationMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/mapper/PmsProductCategoryMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/mapper/PmsProductFullReductionMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/mapper/PmsProductLadderMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/mapper/PmsProductMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/mapper/PmsProductOperateLogMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/mapper/PmsProductVertifyRecordMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/mapper/PmsSkuStockMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/mapper/SmsCouponHistoryMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/mapper/SmsCouponMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/mapper/SmsCouponProductCategoryRelationMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/mapper/SmsCouponProductRelationMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/mapper/SmsFlashPromotionLogMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/mapper/SmsFlashPromotionMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/mapper/SmsFlashPromotionProductRelationMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/mapper/SmsFlashPromotionSessionMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/mapper/SmsHomeAdvertiseMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/mapper/SmsHomeBrandMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/mapper/SmsHomeNewProductMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/mapper/SmsHomeRecommendProductMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/mapper/SmsHomeRecommendSubjectMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/mapper/UmsAdminLoginLogMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/mapper/UmsAdminMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/mapper/UmsAdminPermissionRelationMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/mapper/UmsAdminRoleRelationMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/mapper/UmsGrowthChangeHistoryMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/mapper/UmsIntegrationChangeHistoryMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/mapper/UmsIntegrationConsumeSettingMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/mapper/UmsMemberLevelMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/mapper/UmsMemberLoginLogMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/mapper/UmsMemberMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/mapper/UmsMemberMemberTagRelationMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/mapper/UmsMemberProductCategoryRelationMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/mapper/UmsMemberReceiveAddressMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/mapper/UmsMemberRuleSettingMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/mapper/UmsMemberStatisticsInfoMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/mapper/UmsMemberTagMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/mapper/UmsMemberTaskMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/mapper/UmsMenuMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/mapper/UmsPermissionMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/mapper/UmsResourceCategoryMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/mapper/UmsResourceMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/mapper/UmsRoleMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/mapper/UmsRoleMenuRelationMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/mapper/UmsRolePermissionRelationMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/mapper/UmsRoleResourceRelationMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/resources/com/jeason/mymallmbg/mapper/CmsHelpCategoryMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/resources/com/jeason/mymallmbg/mapper/CmsHelpMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/resources/com/jeason/mymallmbg/mapper/CmsMemberReportMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/resources/com/jeason/mymallmbg/mapper/CmsPrefrenceAreaMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/resources/com/jeason/mymallmbg/mapper/CmsPrefrenceAreaProductRelationMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/resources/com/jeason/mymallmbg/mapper/CmsSubjectCategoryMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/resources/com/jeason/mymallmbg/mapper/CmsSubjectCommentMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/resources/com/jeason/mymallmbg/mapper/CmsSubjectMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/resources/com/jeason/mymallmbg/mapper/CmsSubjectProductRelationMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/resources/com/jeason/mymallmbg/mapper/CmsTopicCategoryMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/resources/com/jeason/mymallmbg/mapper/CmsTopicCommentMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/resources/com/jeason/mymallmbg/mapper/CmsTopicMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/resources/com/jeason/mymallmbg/mapper/OmsCartItemMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/resources/com/jeason/mymallmbg/mapper/OmsCompanyAddressMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/resources/com/jeason/mymallmbg/mapper/OmsOrderItemMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/resources/com/jeason/mymallmbg/mapper/OmsOrderMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/resources/com/jeason/mymallmbg/mapper/OmsOrderOperateHistoryMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/resources/com/jeason/mymallmbg/mapper/OmsOrderReturnApplyMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/resources/com/jeason/mymallmbg/mapper/OmsOrderReturnReasonMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/resources/com/jeason/mymallmbg/mapper/OmsOrderSettingMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/resources/com/jeason/mymallmbg/mapper/PmsAlbumMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/resources/com/jeason/mymallmbg/mapper/PmsAlbumPicMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/resources/com/jeason/mymallmbg/mapper/PmsBrandMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/resources/com/jeason/mymallmbg/mapper/PmsCommentMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/resources/com/jeason/mymallmbg/mapper/PmsCommentReplayMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/resources/com/jeason/mymallmbg/mapper/PmsFeightTemplateMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/resources/com/jeason/mymallmbg/mapper/PmsMemberPriceMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/resources/com/jeason/mymallmbg/mapper/PmsProductAttributeCategoryMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/resources/com/jeason/mymallmbg/mapper/PmsProductAttributeMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/resources/com/jeason/mymallmbg/mapper/PmsProductAttributeValueMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/resources/com/jeason/mymallmbg/mapper/PmsProductCategoryAttributeRelationMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/resources/com/jeason/mymallmbg/mapper/PmsProductCategoryMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/resources/com/jeason/mymallmbg/mapper/PmsProductFullReductionMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/resources/com/jeason/mymallmbg/mapper/PmsProductLadderMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/resources/com/jeason/mymallmbg/mapper/PmsProductMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/resources/com/jeason/mymallmbg/mapper/PmsProductOperateLogMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/resources/com/jeason/mymallmbg/mapper/PmsProductVertifyRecordMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/resources/com/jeason/mymallmbg/mapper/PmsSkuStockMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/resources/com/jeason/mymallmbg/mapper/SmsCouponHistoryMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/resources/com/jeason/mymallmbg/mapper/SmsCouponMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/resources/com/jeason/mymallmbg/mapper/SmsCouponProductCategoryRelationMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/resources/com/jeason/mymallmbg/mapper/SmsCouponProductRelationMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/resources/com/jeason/mymallmbg/mapper/SmsFlashPromotionLogMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/resources/com/jeason/mymallmbg/mapper/SmsFlashPromotionMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/resources/com/jeason/mymallmbg/mapper/SmsFlashPromotionProductRelationMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/resources/com/jeason/mymallmbg/mapper/SmsFlashPromotionSessionMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/resources/com/jeason/mymallmbg/mapper/SmsHomeAdvertiseMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/resources/com/jeason/mymallmbg/mapper/SmsHomeBrandMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/resources/com/jeason/mymallmbg/mapper/SmsHomeNewProductMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/resources/com/jeason/mymallmbg/mapper/SmsHomeRecommendProductMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/resources/com/jeason/mymallmbg/mapper/SmsHomeRecommendSubjectMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/resources/com/jeason/mymallmbg/mapper/UmsAdminLoginLogMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/resources/com/jeason/mymallmbg/mapper/UmsAdminMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/resources/com/jeason/mymallmbg/mapper/UmsAdminPermissionRelationMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/resources/com/jeason/mymallmbg/mapper/UmsAdminRoleRelationMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/resources/com/jeason/mymallmbg/mapper/UmsGrowthChangeHistoryMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/resources/com/jeason/mymallmbg/mapper/UmsIntegrationChangeHistoryMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/resources/com/jeason/mymallmbg/mapper/UmsIntegrationConsumeSettingMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/resources/com/jeason/mymallmbg/mapper/UmsMemberLevelMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/resources/com/jeason/mymallmbg/mapper/UmsMemberLoginLogMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/resources/com/jeason/mymallmbg/mapper/UmsMemberMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/resources/com/jeason/mymallmbg/mapper/UmsMemberMemberTagRelationMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/resources/com/jeason/mymallmbg/mapper/UmsMemberProductCategoryRelationMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/resources/com/jeason/mymallmbg/mapper/UmsMemberReceiveAddressMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/resources/com/jeason/mymallmbg/mapper/UmsMemberRuleSettingMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/resources/com/jeason/mymallmbg/mapper/UmsMemberStatisticsInfoMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/resources/com/jeason/mymallmbg/mapper/UmsMemberTagMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/resources/com/jeason/mymallmbg/mapper/UmsMemberTaskMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/resources/com/jeason/mymallmbg/mapper/UmsMenuMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/resources/com/jeason/mymallmbg/mapper/UmsPermissionMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/resources/com/jeason/mymallmbg/mapper/UmsResourceCategoryMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/resources/com/jeason/mymallmbg/mapper/UmsResourceMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/resources/com/jeason/mymallmbg/mapper/UmsRoleMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/resources/com/jeason/mymallmbg/mapper/UmsRoleMenuRelationMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/resources/com/jeason/mymallmbg/mapper/UmsRolePermissionRelationMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/resources/com/jeason/mymallmbg/mapper/UmsRoleResourceRelationMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/resources/generatorConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mymall-mbg/src/main/resources/generatorConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mymall-admin/mymall-admin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/mymall-admin/mymall-admin.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mymall-admin/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mymall-admin/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mymall-admin/src/main/java/com/jeason/mymalladmin/MymallAdminApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/mymall-admin/src/main/java/com/jeason/mymalladmin/MymallAdminApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mymall-admin/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mymall-admin/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mymall-mbg/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mymall-mbg/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/test/java/com/jeason/mymallmbg/MymallMbgApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mymall-security/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mymall-security/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mymall-security/src/main/java/com/jeason/mymallsecurity/MymallSecurityApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mymall-security/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mymall-security/src/test/java/com/jeason/mymallsecurity/MymallSecurityApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -385,14 +65,18 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/mymall-mbg/src/main/resources" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Facets" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
@@ -407,7 +91,7 @@
       <recent name="D:\git\mymall\mymall-mbg" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Generator">
+  <component name="RunManager" selected="Spring Boot.MymallAdminApplication">
     <configuration name="Generator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.jeason.mymallmbg.Generator" />
       <module name="mymall-mbg" />
@@ -428,17 +112,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MymallSecurityApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="mymall-security" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jeason.mymallsecurity.MymallSecurityApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Application.Generator" />
       <item itemvalue="Spring Boot.MymallAdminApplication" />
-      <item itemvalue="Spring Boot.MymallSecurityApplication" />
     </list>
     <recent_temporary>
       <list>
@@ -458,7 +134,10 @@
       <updated>1589032868482</updated>
       <workItem from="1589032881017" duration="254000" />
       <workItem from="1589033177062" duration="390000" />
-      <workItem from="1589033582918" duration="5435000" />
+      <workItem from="1589033582918" duration="10004000" />
+      <workItem from="1589080570224" duration="1800000" />
+      <workItem from="1589084760448" duration="8438000" />
+      <workItem from="1589122622136" duration="45000" />
     </task>
     <task id="LOCAL-00001" summary="搭建demo">
       <created>1589033864911</created>
@@ -502,7 +181,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589038430164</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="搭建项目">
+      <created>1589039117459</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1589039117459</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -519,10 +205,14 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="361" y="76" key="#Project_Structure/-2160.-154.1440.935/0.0.1536.834@0.0.1536.834" timestamp="1589036338888" />
-    <state x="223" y="73" width="1164" height="688" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589039026438">
+    <state x="223" y="73" width="1164" height="688" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589045958359">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="223" y="73" width="1164" height="688" key="#com.intellij.execution.impl.EditConfigurationsDialog/-2160.-154.1440.935/0.0.1536.834@0.0.1536.834" timestamp="1589039026438" />
+    <state x="223" y="73" width="1164" height="688" key="#com.intellij.execution.impl.EditConfigurationsDialog/-2160.-154.1440.935/0.0.1536.834@0.0.1536.834" timestamp="1589045958359" />
+    <state x="574" y="127" key="#com.intellij.ide.util.MemberChooser" timestamp="1589119833215">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="574" y="127" key="#com.intellij.ide.util.MemberChooser/-2160.-154.1440.935/0.0.1536.834@0.0.1536.834" timestamp="1589119833215" />
     <state x="465" y="343" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1589038509587">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -531,41 +221,61 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="499" y="164" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-2160.-154.1440.935/0.0.1536.834@0.0.1536.834" timestamp="1589033758789" />
-    <state x="0" y="11" key="CommitChangelistDialog2" timestamp="1589038428094">
+    <state x="0" y="11" key="CommitChangelistDialog2" timestamp="1589039116120">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="0" y="11" key="CommitChangelistDialog2/-2160.-154.1440.935/0.0.1536.834@0.0.1536.834" timestamp="1589038428094" />
-    <state width="1493" height="191" key="GridCell.Tab.0.bottom" timestamp="1589039034458">
+    <state x="0" y="11" key="CommitChangelistDialog2/-2160.-154.1440.935/0.0.1536.834@0.0.1536.834" timestamp="1589039116120" />
+    <state width="1493" height="176" key="GridCell.Tab.0.bottom" timestamp="1589122612626">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="191" key="GridCell.Tab.0.bottom/-2160.-154.1440.935/0.0.1536.834@0.0.1536.834" timestamp="1589039034458" />
-    <state width="1493" height="191" key="GridCell.Tab.0.center" timestamp="1589039034458">
+    <state width="1493" height="176" key="GridCell.Tab.0.bottom/-2160.-154.1440.935/0.0.1536.834@0.0.1536.834" timestamp="1589122612626" />
+    <state width="1493" height="176" key="GridCell.Tab.0.center" timestamp="1589122612626">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="191" key="GridCell.Tab.0.center/-2160.-154.1440.935/0.0.1536.834@0.0.1536.834" timestamp="1589039034458" />
-    <state width="1493" height="191" key="GridCell.Tab.0.left" timestamp="1589039034458">
+    <state width="1493" height="176" key="GridCell.Tab.0.center/-2160.-154.1440.935/0.0.1536.834@0.0.1536.834" timestamp="1589122612626" />
+    <state width="1493" height="176" key="GridCell.Tab.0.left" timestamp="1589122612626">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="191" key="GridCell.Tab.0.left/-2160.-154.1440.935/0.0.1536.834@0.0.1536.834" timestamp="1589039034458" />
-    <state width="1493" height="191" key="GridCell.Tab.0.right" timestamp="1589039034458">
+    <state width="1493" height="176" key="GridCell.Tab.0.left/-2160.-154.1440.935/0.0.1536.834@0.0.1536.834" timestamp="1589122612626" />
+    <state width="1493" height="176" key="GridCell.Tab.0.right" timestamp="1589122612626">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="191" key="GridCell.Tab.0.right/-2160.-154.1440.935/0.0.1536.834@0.0.1536.834" timestamp="1589039034458" />
-    <state x="270" y="60" key="SettingsEditor" timestamp="1589032976015">
+    <state width="1493" height="176" key="GridCell.Tab.0.right/-2160.-154.1440.935/0.0.1536.834@0.0.1536.834" timestamp="1589122612626" />
+    <state width="1493" height="176" key="GridCell.Tab.1.bottom" timestamp="1589122612627">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="270" y="60" key="SettingsEditor/-2160.-154.1440.935/0.0.1536.834@0.0.1536.834" timestamp="1589032976015" />
-    <state x="361" y="151" key="Vcs.Push.Dialog.v2" timestamp="1589033898712">
+    <state width="1493" height="176" key="GridCell.Tab.1.bottom/-2160.-154.1440.935/0.0.1536.834@0.0.1536.834" timestamp="1589122612627" />
+    <state width="1493" height="176" key="GridCell.Tab.1.center" timestamp="1589122612627">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="361" y="151" key="Vcs.Push.Dialog.v2/-2160.-154.1440.935/0.0.1536.834@0.0.1536.834" timestamp="1589033898712" />
-    <state x="447" y="150" width="642" height="534" key="find.popup" timestamp="1589037927947">
+    <state width="1493" height="176" key="GridCell.Tab.1.center/-2160.-154.1440.935/0.0.1536.834@0.0.1536.834" timestamp="1589122612627" />
+    <state width="1493" height="176" key="GridCell.Tab.1.left" timestamp="1589122612626">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="447" y="150" width="642" height="534" key="find.popup/-2160.-154.1440.935/0.0.1536.834@0.0.1536.834" timestamp="1589037927947" />
+    <state width="1493" height="176" key="GridCell.Tab.1.left/-2160.-154.1440.935/0.0.1536.834@0.0.1536.834" timestamp="1589122612626" />
+    <state width="1493" height="176" key="GridCell.Tab.1.right" timestamp="1589122612627">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="176" key="GridCell.Tab.1.right/-2160.-154.1440.935/0.0.1536.834@0.0.1536.834" timestamp="1589122612627" />
+    <state x="270" y="0" key="SettingsEditor" timestamp="1589080770844">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="270" y="0" key="SettingsEditor/-2160.-154.1440.935/0.0.1536.834@0.0.1536.834" timestamp="1589080770844" />
+    <state x="361" y="151" key="Vcs.Push.Dialog.v2" timestamp="1589039138609">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="361" y="151" key="Vcs.Push.Dialog.v2/-2160.-154.1440.935/0.0.1536.834@0.0.1536.834" timestamp="1589039138609" />
+    <state x="447" y="150" width="642" height="534" key="find.popup" timestamp="1589120172217">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="447" y="150" width="642" height="534" key="find.popup/-2160.-154.1440.935/0.0.1536.834@0.0.1536.834" timestamp="1589120172217" />
     <state x="178" y="119" key="new project wizard" timestamp="1589034425621">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="178" y="119" key="new project wizard/-2160.-154.1440.935/0.0.1536.834@0.0.1536.834" timestamp="1589034425621" />
+    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup" timestamp="1589094741122">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup/-2160.-154.1440.935/0.0.1536.834@0.0.1536.834" timestamp="1589094741122" />
   </component>
 </project>
