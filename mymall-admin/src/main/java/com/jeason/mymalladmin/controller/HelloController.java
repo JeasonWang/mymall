@@ -13,8 +13,14 @@ public class HelloController {
 
     @GetMapping("/hello")
     public String hello(){
-        UmsAdmin umsAdmin = umsAdminService.loadUserByUsername("admin");
-        System.out.println(umsAdmin.getNickName());
+        UmsAdmin umsAdmin = umsAdminService.getAdminByUsername("admin");
+        System.out.println(umsAdmin.getUsername());
         return "hello";
+    }
+    @GetMapping("/login")
+    public String hello1(){
+        UmsAdmin umsAdmin = umsAdminService.getAdminByUsername("admin");
+        System.out.println(umsAdmin.getUsername());
+        return "login";
     }
 }

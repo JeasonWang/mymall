@@ -26,10 +26,10 @@
             <groupId>com.jeason</groupId>
             <artifactId>mymall-mbg</artifactId>
         </dependency>
-<!--        <dependency>-->
-<!--            <groupId>com.jeason</groupId>-->
-<!--            <artifactId>mymall-security</artifactId>-->
-<!--        </dependency>-->
+        <dependency>
+            <groupId>com.jeason</groupId>
+            <artifactId>mymall-security</artifactId>
+        </dependency>
     </dependencies>
 
     <build>

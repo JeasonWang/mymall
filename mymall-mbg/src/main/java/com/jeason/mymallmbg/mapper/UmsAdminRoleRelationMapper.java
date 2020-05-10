@@ -3,6 +3,8 @@ package com.jeason.mymallmbg.mapper;
 import com.jeason.mymallmbg.model.UmsAdminRoleRelation;
 import com.jeason.mymallmbg.model.UmsAdminRoleRelationExample;
 import java.util.List;
+
+import com.jeason.mymallmbg.model.UmsResource;
 import org.apache.ibatis.annotations.Param;
 
 public interface UmsAdminRoleRelationMapper {
@@ -27,4 +29,6 @@ public interface UmsAdminRoleRelationMapper {
     int updateByPrimaryKeySelective(UmsAdminRoleRelation record);
 
     int updateByPrimaryKey(UmsAdminRoleRelation record);
+
+    List<UmsResource> getResourceList(@Param("adminId") Long adminId);
 }
