@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f2d1aa23-8680-424f-891f-1a0e3d640e3d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/mymall-admin/src/main/java/com/jeason/mymalladmin/model/AdminUserDetails.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mymall-security/src/main/java/com/jeason/mymallsecurity/config/RestAuthenticationEntryPoint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mymall-security/src/main/java/com/jeason/mymallsecurity/config/RestfulAccessDeniedHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-admin/mymall-admin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/mymall-admin/mymall-admin.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-admin/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mymall-admin/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-admin/src/main/java/com/jeason/mymalladmin/config/MyMallSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/mymall-admin/src/main/java/com/jeason/mymalladmin/config/MyMallSecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-admin/src/main/java/com/jeason/mymalladmin/controller/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/mymall-admin/src/main/java/com/jeason/mymalladmin/controller/HelloController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-admin/src/main/java/com/jeason/mymalladmin/service/UmsAdminService.java" beforeDir="false" afterPath="$PROJECT_DIR$/mymall-admin/src/main/java/com/jeason/mymalladmin/service/UmsAdminService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-admin/src/main/java/com/jeason/mymalladmin/service/impl/UmsAdminServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/mymall-admin/src/main/java/com/jeason/mymalladmin/service/impl/UmsAdminServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/com/jeason/mymallmbg/mapper/UmsAdminRoleRelationMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/mymall-mbg/src/main/java/com/jeason/mymallmbg/mapper/UmsAdminRoleRelationMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/resources/mapper/UmsResourceMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mymall-mbg/src/main/resources/mapper/UmsResourceMapper.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,7 +115,7 @@
       <workItem from="1589033582918" duration="10004000" />
       <workItem from="1589080570224" duration="1800000" />
       <workItem from="1589084760448" duration="8438000" />
-      <workItem from="1589122622136" duration="8041000" />
+      <workItem from="1589122622136" duration="8152000" />
     </task>
     <task id="LOCAL-00001" summary="搭建demo">
       <created>1589033864911</created>
@@ -184,7 +173,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589122814201</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="搭建项目">
+      <created>1589130756770</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1589130756770</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -217,50 +213,50 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="499" y="164" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-2160.-154.1440.935/0.0.1536.834@0.0.1536.834" timestamp="1589033758789" />
-    <state x="0" y="11" key="CommitChangelistDialog2" timestamp="1589122813319">
+    <state x="0" y="11" key="CommitChangelistDialog2" timestamp="1589130756061">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="0" y="11" key="CommitChangelistDialog2/-2160.-154.1440.935/0.0.1536.834@0.0.1536.834" timestamp="1589122813319" />
-    <state width="1493" height="263" key="GridCell.Tab.0.bottom" timestamp="1589130374006">
+    <state x="0" y="11" key="CommitChangelistDialog2/-2160.-154.1440.935/0.0.1536.834@0.0.1536.834" timestamp="1589130756061" />
+    <state width="1493" height="187" key="GridCell.Tab.0.bottom" timestamp="1589130782148">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="263" key="GridCell.Tab.0.bottom/-2160.-154.1440.935/0.0.1536.834@0.0.1536.834" timestamp="1589130374006" />
-    <state width="1493" height="263" key="GridCell.Tab.0.center" timestamp="1589130374006">
+    <state width="1493" height="187" key="GridCell.Tab.0.bottom/-2160.-154.1440.935/0.0.1536.834@0.0.1536.834" timestamp="1589130782148" />
+    <state width="1493" height="187" key="GridCell.Tab.0.center" timestamp="1589130782148">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="263" key="GridCell.Tab.0.center/-2160.-154.1440.935/0.0.1536.834@0.0.1536.834" timestamp="1589130374006" />
-    <state width="1493" height="263" key="GridCell.Tab.0.left" timestamp="1589130374006">
+    <state width="1493" height="187" key="GridCell.Tab.0.center/-2160.-154.1440.935/0.0.1536.834@0.0.1536.834" timestamp="1589130782148" />
+    <state width="1493" height="187" key="GridCell.Tab.0.left" timestamp="1589130782148">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="263" key="GridCell.Tab.0.left/-2160.-154.1440.935/0.0.1536.834@0.0.1536.834" timestamp="1589130374006" />
-    <state width="1493" height="263" key="GridCell.Tab.0.right" timestamp="1589130374006">
+    <state width="1493" height="187" key="GridCell.Tab.0.left/-2160.-154.1440.935/0.0.1536.834@0.0.1536.834" timestamp="1589130782148" />
+    <state width="1493" height="187" key="GridCell.Tab.0.right" timestamp="1589130782148">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="263" key="GridCell.Tab.0.right/-2160.-154.1440.935/0.0.1536.834@0.0.1536.834" timestamp="1589130374006" />
-    <state width="1493" height="263" key="GridCell.Tab.1.bottom" timestamp="1589130374006">
+    <state width="1493" height="187" key="GridCell.Tab.0.right/-2160.-154.1440.935/0.0.1536.834@0.0.1536.834" timestamp="1589130782148" />
+    <state width="1493" height="187" key="GridCell.Tab.1.bottom" timestamp="1589130782148">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="263" key="GridCell.Tab.1.bottom/-2160.-154.1440.935/0.0.1536.834@0.0.1536.834" timestamp="1589130374006" />
-    <state width="1493" height="263" key="GridCell.Tab.1.center" timestamp="1589130374006">
+    <state width="1493" height="187" key="GridCell.Tab.1.bottom/-2160.-154.1440.935/0.0.1536.834@0.0.1536.834" timestamp="1589130782148" />
+    <state width="1493" height="187" key="GridCell.Tab.1.center" timestamp="1589130782148">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="263" key="GridCell.Tab.1.center/-2160.-154.1440.935/0.0.1536.834@0.0.1536.834" timestamp="1589130374006" />
-    <state width="1493" height="263" key="GridCell.Tab.1.left" timestamp="1589130374006">
+    <state width="1493" height="187" key="GridCell.Tab.1.center/-2160.-154.1440.935/0.0.1536.834@0.0.1536.834" timestamp="1589130782148" />
+    <state width="1493" height="187" key="GridCell.Tab.1.left" timestamp="1589130782148">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="263" key="GridCell.Tab.1.left/-2160.-154.1440.935/0.0.1536.834@0.0.1536.834" timestamp="1589130374006" />
-    <state width="1493" height="263" key="GridCell.Tab.1.right" timestamp="1589130374006">
+    <state width="1493" height="187" key="GridCell.Tab.1.left/-2160.-154.1440.935/0.0.1536.834@0.0.1536.834" timestamp="1589130782148" />
+    <state width="1493" height="187" key="GridCell.Tab.1.right" timestamp="1589130782148">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="263" key="GridCell.Tab.1.right/-2160.-154.1440.935/0.0.1536.834@0.0.1536.834" timestamp="1589130374006" />
+    <state width="1493" height="187" key="GridCell.Tab.1.right/-2160.-154.1440.935/0.0.1536.834@0.0.1536.834" timestamp="1589130782148" />
     <state x="270" y="0" key="SettingsEditor" timestamp="1589080770844">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="270" y="0" key="SettingsEditor/-2160.-154.1440.935/0.0.1536.834@0.0.1536.834" timestamp="1589080770844" />
-    <state x="361" y="151" key="Vcs.Push.Dialog.v2" timestamp="1589122822378">
+    <state x="361" y="151" key="Vcs.Push.Dialog.v2" timestamp="1589130763670">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="361" y="151" key="Vcs.Push.Dialog.v2/-2160.-154.1440.935/0.0.1536.834@0.0.1536.834" timestamp="1589122822378" />
+    <state x="361" y="151" key="Vcs.Push.Dialog.v2/-2160.-154.1440.935/0.0.1536.834@0.0.1536.834" timestamp="1589130763670" />
     <state x="447" y="150" width="642" height="534" key="find.popup" timestamp="1589120172217">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
