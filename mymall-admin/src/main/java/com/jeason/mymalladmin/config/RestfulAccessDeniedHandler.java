@@ -1,11 +1,13 @@
-package com.jeason.mymallsecurity.config;
+package com.jeason.mymalladmin.config;
 
 import org.springframework.security.access.AccessDeniedException;
 import org.springframework.security.web.access.AccessDeniedHandler;
+
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
+
 /**
  * 自定义返回结果：没有权限访问时
  * Created by jeason on 2020/4/14.

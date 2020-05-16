@@ -20,7 +20,6 @@
         <module>mymall-admin</module>
         <module>mymall-common</module>
         <module>mymall-mbg</module>
-        <module>mymall-security</module>
     </modules>
 
     <properties>
@@ -47,7 +46,6 @@
         <minio.version>3.0.10</minio.version>
         <mymall-common.version>0.0.1-SNAPSHOT</mymall-common.version>
         <mymall-mbg.version>0.0.1-SNAPSHOT</mymall-mbg.version>
-        <mymall-security.version>0.0.1-SNAPSHOT</mymall-security.version>
     </properties>
 
     <dependencies>
@@ -76,6 +74,10 @@
             <groupId>com.alibaba</groupId>
             <artifactId>druid-spring-boot-starter</artifactId>
         </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-security</artifactId>
+        </dependency>
     </dependencies>
 
     <!--只声明不加载包，目的是确定版本号-->
@@ -92,12 +94,6 @@
                 <groupId>com.jeason</groupId>
                 <artifactId>mymall-mbg</artifactId>
                 <version>${mymall-mbg.version}</version>
-            </dependency>
-            <!--mymall安全模块-->
-            <dependency>
-                <groupId>com.jeason</groupId>
-                <artifactId>mymall-security</artifactId>
-                <version>${mymall-security.version}</version>
             </dependency>
             <!--MyBatis分页插件starter-->
             <dependency>

@@ -4,7 +4,6 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/mymall-security/pom.xml" />
         <option value="$PROJECT_DIR$/mymall-admin/pom.xml" />
         <option value="$PROJECT_DIR$/mymall-common/pom.xml" />
         <option value="$PROJECT_DIR$/mymall-mbg/pom.xml" />

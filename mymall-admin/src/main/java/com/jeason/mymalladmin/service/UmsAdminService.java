@@ -10,4 +10,6 @@ public interface UmsAdminService {
     AdminUserDetails loadUserByUsername(String username);
     UmsAdmin getAdminByUsername(String username);
     List<UmsResource> getResourceList(Long adminId);
+
+    String login(String username, String password);
 }

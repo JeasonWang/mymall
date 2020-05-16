@@ -1,9 +1,7 @@
 package com.jeason.mymalladmin.config;
 
 import com.jeason.mymalladmin.service.UmsAdminService;
-import com.jeason.mymalladmin.service.impl.UmsAdminServiceImpl;
-import com.jeason.mymallsecurity.config.RestAuthenticationEntryPoint;
-import com.jeason.mymallsecurity.config.RestfulAccessDeniedHandler;
+import com.jeason.mymallcommon.Util.JwtTokenUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -15,7 +13,7 @@ import org.springframework.security.config.annotation.web.configuration.WebSecur
 import org.springframework.security.config.annotation.web.configurers.ExpressionUrlAuthorizationConfigurer;
 import org.springframework.security.config.http.SessionCreationPolicy;
 import org.springframework.security.core.userdetails.UserDetailsService;
-import org.springframework.security.crypto.password.NoOpPasswordEncoder;
+import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 
 @Configuration
@@ -24,17 +22,22 @@ public class MyMallSecurityConfig extends WebSecurityConfigurerAdapter {
     UmsAdminService umsAdminService;
 
     @Bean
+    JwtTokenUtil jwtTokenUtil(){
+        return new JwtTokenUtil();
+    }
+
+    @Bean
     PasswordEncoder passwordEncoder(){
-        return NoOpPasswordEncoder.getInstance();
+        return new BCryptPasswordEncoder();
     }
 
     @Override
     protected void configure(AuthenticationManagerBuilder auth) throws Exception {
-        auth.userDetailsService(userDetailsService1());
+        auth.userDetailsService(myUserDetailsService());
     }
 
     @Bean
-    public UserDetailsService userDetailsService1(){
+    public UserDetailsService myUserDetailsService(){
         return username -> umsAdminService.loadUserByUsername(username);
     }
 
