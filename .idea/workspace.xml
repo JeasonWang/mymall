@@ -2,38 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f2d1aa23-8680-424f-891f-1a0e3d640e3d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_jsonwebtoken_jjwt_0_9_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mymall-admin/src/main/java/com/jeason/mymalladmin/config/MyBatisConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mymall-admin/src/main/java/com/jeason/mymalladmin/controller/LoginController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mymall-admin/src/main/java/com/jeason/mymalladmin/dto/UmsAdminLoginParam.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mymall-common/src/main/java/com/jeason/mymallcommon/Util/JwtTokenUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mymall-common/src/main/java/com/jeason/mymallcommon/api/CommonResult.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mymall-admin/src/main/java/com/jeason/mymalladmin/config/IgnoreUrlsConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mymall-admin/src/main/java/com/jeason/mymalladmin/config/Swagger2Config.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-admin/mymall-admin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/mymall-admin/mymall-admin.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-admin/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mymall-admin/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mymall-admin/src/main/java/com/jeason/mymalladmin/MymallAdminApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/mymall-admin/src/main/java/com/jeason/mymalladmin/MymallAdminApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mymall-admin/src/main/java/com/jeason/mymalladmin/config/MyMallSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/mymall-admin/src/main/java/com/jeason/mymalladmin/config/MyMallSecurityConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mymall-admin/src/main/java/com/jeason/mymalladmin/controller/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/mymall-admin/src/main/java/com/jeason/mymalladmin/controller/HelloController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-admin/src/main/java/com/jeason/mymalladmin/service/UmsAdminService.java" beforeDir="false" afterPath="$PROJECT_DIR$/mymall-admin/src/main/java/com/jeason/mymalladmin/service/UmsAdminService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-admin/src/main/java/com/jeason/mymalladmin/service/impl/UmsAdminServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/mymall-admin/src/main/java/com/jeason/mymalladmin/service/impl/UmsAdminServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mymall-admin/src/main/java/com/jeason/mymalladmin/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/mymall-admin/src/main/java/com/jeason/mymalladmin/controller/LoginController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mymall-admin/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mymall-admin/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-common/mymall-common.iml" beforeDir="false" afterPath="$PROJECT_DIR$/mymall-common/mymall-common.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mymall-common/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/mymall-mbg.iml" beforeDir="false" afterPath="$PROJECT_DIR$/mymall-mbg/mymall-mbg.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/resources/mapper/UmsAdminRoleRelationMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mymall-mbg/src/main/resources/mapper/UmsAdminRoleRelationMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/resources/mapper/UmsResourceMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mymall-mbg/src/main/resources/mapper/UmsResourceMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-security/mymall-security.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-security/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-security/src/main/java/com/jeason/mymallsecurity/config/RestAuthenticationEntryPoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/mymall-admin/src/main/java/com/jeason/mymalladmin/config/RestAuthenticationEntryPoint.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-security/src/main/java/com/jeason/mymallsecurity/config/RestfulAccessDeniedHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/mymall-admin/src/main/java/com/jeason/mymalladmin/config/RestfulAccessDeniedHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-security/src/main/java/com/jeason/mymallsecurity/config/SecurityConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-security/src/main/java/com/jeason/mymallsecurity/util/JwtTokenUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall.iml" beforeDir="false" afterPath="$PROJECT_DIR$/mymall.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -150,7 +126,8 @@
       <workItem from="1589080570224" duration="1800000" />
       <workItem from="1589084760448" duration="8438000" />
       <workItem from="1589122622136" duration="8152000" />
-      <workItem from="1589603246524" duration="16574000" />
+      <workItem from="1589603246524" duration="16696000" />
+      <workItem from="1589714582138" duration="4330000" />
     </task>
     <task id="LOCAL-00001" summary="搭建demo">
       <created>1589033864911</created>
@@ -222,7 +199,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589603510817</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="实现登录功能">
+      <created>1589634441299</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1589634441299</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -232,7 +216,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="搭建demo" />
     <MESSAGE value="搭建项目" />
-    <option name="LAST_COMMIT_MESSAGE" value="搭建项目" />
+    <MESSAGE value="实现登录功能" />
+    <option name="LAST_COMMIT_MESSAGE" value="实现登录功能" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="76" key="#Project_Structure" timestamp="1589036338888">
@@ -255,72 +240,72 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="499" y="164" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-2160.-154.1440.935/0.0.1536.834@0.0.1536.834" timestamp="1589033758789" />
-    <state x="0" y="12" width="1250" height="857" key="CommitChangelistDialog2" timestamp="1589603509981">
-      <screen x="0" y="0" width="1440" height="929" />
+    <state x="0" y="11" width="1250" height="857" key="CommitChangelistDialog2" timestamp="1589634440570">
+      <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="0" y="11" key="CommitChangelistDialog2/-2160.-154.1440.935/0.0.1536.834@0.0.1536.834" timestamp="1589130756061" />
+    <state x="0" y="11" key="CommitChangelistDialog2/-2160.-154.1440.935/0.0.1536.834@0.0.1536.834" timestamp="1589634440570" />
     <state x="0" y="12" width="1250" height="857" key="CommitChangelistDialog2/0.0.1440.929@0.0.1440.929" timestamp="1589603509981" />
-    <state width="1493" height="249" key="GridCell.Tab.0.bottom" timestamp="1589634345114">
+    <state width="1493" height="219" key="GridCell.Tab.0.bottom" timestamp="1589730760929">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="249" key="GridCell.Tab.0.bottom/-2160.-154.1440.935/0.0.1536.834@0.0.1536.834" timestamp="1589634345114" />
-    <state width="1493" height="249" key="GridCell.Tab.0.center" timestamp="1589634345113">
+    <state width="1493" height="219" key="GridCell.Tab.0.bottom/-2160.-154.1440.935/0.0.1536.834@0.0.1536.834" timestamp="1589730760929" />
+    <state width="1493" height="219" key="GridCell.Tab.0.center" timestamp="1589730760929">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="249" key="GridCell.Tab.0.center/-2160.-154.1440.935/0.0.1536.834@0.0.1536.834" timestamp="1589634345113" />
-    <state width="1493" height="249" key="GridCell.Tab.0.left" timestamp="1589634345113">
+    <state width="1493" height="219" key="GridCell.Tab.0.center/-2160.-154.1440.935/0.0.1536.834@0.0.1536.834" timestamp="1589730760929" />
+    <state width="1493" height="219" key="GridCell.Tab.0.left" timestamp="1589730760929">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="249" key="GridCell.Tab.0.left/-2160.-154.1440.935/0.0.1536.834@0.0.1536.834" timestamp="1589634345113" />
-    <state width="1493" height="249" key="GridCell.Tab.0.right" timestamp="1589634345113">
+    <state width="1493" height="219" key="GridCell.Tab.0.left/-2160.-154.1440.935/0.0.1536.834@0.0.1536.834" timestamp="1589730760929" />
+    <state width="1493" height="219" key="GridCell.Tab.0.right" timestamp="1589730760929">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="249" key="GridCell.Tab.0.right/-2160.-154.1440.935/0.0.1536.834@0.0.1536.834" timestamp="1589634345113" />
-    <state width="1493" height="249" key="GridCell.Tab.1.bottom" timestamp="1589634345114">
+    <state width="1493" height="219" key="GridCell.Tab.0.right/-2160.-154.1440.935/0.0.1536.834@0.0.1536.834" timestamp="1589730760929" />
+    <state width="1493" height="219" key="GridCell.Tab.1.bottom" timestamp="1589730760929">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="249" key="GridCell.Tab.1.bottom/-2160.-154.1440.935/0.0.1536.834@0.0.1536.834" timestamp="1589634345114" />
-    <state width="1493" height="249" key="GridCell.Tab.1.center" timestamp="1589634345114">
+    <state width="1493" height="219" key="GridCell.Tab.1.bottom/-2160.-154.1440.935/0.0.1536.834@0.0.1536.834" timestamp="1589730760929" />
+    <state width="1493" height="219" key="GridCell.Tab.1.center" timestamp="1589730760929">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="249" key="GridCell.Tab.1.center/-2160.-154.1440.935/0.0.1536.834@0.0.1536.834" timestamp="1589634345114" />
-    <state width="1493" height="249" key="GridCell.Tab.1.left" timestamp="1589634345114">
+    <state width="1493" height="219" key="GridCell.Tab.1.center/-2160.-154.1440.935/0.0.1536.834@0.0.1536.834" timestamp="1589730760929" />
+    <state width="1493" height="219" key="GridCell.Tab.1.left" timestamp="1589730760929">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="249" key="GridCell.Tab.1.left/-2160.-154.1440.935/0.0.1536.834@0.0.1536.834" timestamp="1589634345114" />
-    <state width="1493" height="249" key="GridCell.Tab.1.right" timestamp="1589634345114">
+    <state width="1493" height="219" key="GridCell.Tab.1.left/-2160.-154.1440.935/0.0.1536.834@0.0.1536.834" timestamp="1589730760929" />
+    <state width="1493" height="219" key="GridCell.Tab.1.right" timestamp="1589730760929">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="249" key="GridCell.Tab.1.right/-2160.-154.1440.935/0.0.1536.834@0.0.1536.834" timestamp="1589634345114" />
-    <state width="1493" height="188" key="GridCell.Tab.2.bottom" timestamp="1589633402762">
+    <state width="1493" height="219" key="GridCell.Tab.1.right/-2160.-154.1440.935/0.0.1536.834@0.0.1536.834" timestamp="1589730760929" />
+    <state width="1493" height="188" key="GridCell.Tab.2.bottom" timestamp="1589634462888">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="188" key="GridCell.Tab.2.bottom/-2160.-154.1440.935/0.0.1536.834@0.0.1536.834" timestamp="1589633402762" />
-    <state width="1493" height="188" key="GridCell.Tab.2.center" timestamp="1589633402762">
+    <state width="1493" height="188" key="GridCell.Tab.2.bottom/-2160.-154.1440.935/0.0.1536.834@0.0.1536.834" timestamp="1589634462888" />
+    <state width="1493" height="188" key="GridCell.Tab.2.center" timestamp="1589634462888">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="188" key="GridCell.Tab.2.center/-2160.-154.1440.935/0.0.1536.834@0.0.1536.834" timestamp="1589633402762" />
-    <state width="1493" height="188" key="GridCell.Tab.2.left" timestamp="1589633402762">
+    <state width="1493" height="188" key="GridCell.Tab.2.center/-2160.-154.1440.935/0.0.1536.834@0.0.1536.834" timestamp="1589634462888" />
+    <state width="1493" height="188" key="GridCell.Tab.2.left" timestamp="1589634462888">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="188" key="GridCell.Tab.2.left/-2160.-154.1440.935/0.0.1536.834@0.0.1536.834" timestamp="1589633402762" />
-    <state width="1493" height="188" key="GridCell.Tab.2.right" timestamp="1589633402762">
+    <state width="1493" height="188" key="GridCell.Tab.2.left/-2160.-154.1440.935/0.0.1536.834@0.0.1536.834" timestamp="1589634462888" />
+    <state width="1493" height="188" key="GridCell.Tab.2.right" timestamp="1589634462888">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="188" key="GridCell.Tab.2.right/-2160.-154.1440.935/0.0.1536.834@0.0.1536.834" timestamp="1589633402762" />
+    <state width="1493" height="188" key="GridCell.Tab.2.right/-2160.-154.1440.935/0.0.1536.834@0.0.1536.834" timestamp="1589634462888" />
     <state x="270" y="0" key="SettingsEditor" timestamp="1589080770844">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="270" y="0" key="SettingsEditor/-2160.-154.1440.935/0.0.1536.834@0.0.1536.834" timestamp="1589080770844" />
-    <state x="338" y="168" key="Vcs.Push.Dialog.v2" timestamp="1589603524151">
-      <screen x="0" y="0" width="1440" height="929" />
-    </state>
-    <state x="361" y="151" key="Vcs.Push.Dialog.v2/-2160.-154.1440.935/0.0.1536.834@0.0.1536.834" timestamp="1589130763670" />
-    <state x="338" y="168" key="Vcs.Push.Dialog.v2/0.0.1440.929@0.0.1440.929" timestamp="1589603524151" />
-    <state x="447" y="150" width="782" height="600" key="find.popup" timestamp="1589633140291">
+    <state x="361" y="151" key="Vcs.Push.Dialog.v2" timestamp="1589634450525">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="447" y="150" width="782" height="600" key="find.popup/-2160.-154.1440.935/0.0.1536.834@0.0.1536.834" timestamp="1589633140291" />
+    <state x="361" y="151" key="Vcs.Push.Dialog.v2/-2160.-154.1440.935/0.0.1536.834@0.0.1536.834" timestamp="1589634450525" />
+    <state x="338" y="168" key="Vcs.Push.Dialog.v2/0.0.1440.929@0.0.1440.929" timestamp="1589603524151" />
+    <state x="447" y="150" width="782" height="600" key="find.popup" timestamp="1589728518557">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="447" y="150" width="782" height="600" key="find.popup/-2160.-154.1440.935/0.0.1536.834@0.0.1536.834" timestamp="1589728518557" />
     <state x="178" y="119" key="new project wizard" timestamp="1589034425621">
       <screen x="0" y="0" width="1536" height="834" />
     </state>

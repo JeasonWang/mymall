@@ -20,7 +20,8 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 public class MyMallSecurityConfig extends WebSecurityConfigurerAdapter {
     @Autowired
     UmsAdminService umsAdminService;
-
+    @Autowired
+    IgnoreUrlsConfig ignoreUrlsConfig;
     @Bean
     JwtTokenUtil jwtTokenUtil(){
         return new JwtTokenUtil();
@@ -43,7 +44,9 @@ public class MyMallSecurityConfig extends WebSecurityConfigurerAdapter {
 
     @Override
     public void configure(WebSecurity web) throws Exception {
-        super.configure(web);
+        for(String url:ignoreUrlsConfig.getUrls()){
+            web.ignoring().antMatchers(url);
+        }
     }
     @Bean
     public RestfulAccessDeniedHandler restfulAccessDeniedHandler() {
@@ -60,7 +63,6 @@ public class MyMallSecurityConfig extends WebSecurityConfigurerAdapter {
         ExpressionUrlAuthorizationConfigurer<HttpSecurity>.ExpressionInterceptUrlRegistry registry = http
                 .authorizeRequests();
         registry.antMatchers("/login").permitAll();
-
         //允许跨域请求的OPTIONS请求
         registry.antMatchers(HttpMethod.OPTIONS)
                 .permitAll();
