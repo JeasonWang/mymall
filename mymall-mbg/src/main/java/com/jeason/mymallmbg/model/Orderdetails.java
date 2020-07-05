@@ -4,10 +4,13 @@ import io.swagger.annotations.ApiModelProperty;
 import java.io.Serializable;
 
 public class Orderdetails implements Serializable {
+    @ApiModelProperty(value = "orderid")
     private Integer orderid;
 
+    @ApiModelProperty(value = "productionid")
     private Integer productionid;
 
+    @ApiModelProperty(value = "number")
     private Integer number;
 
     private static final long serialVersionUID = 1L;

@@ -18,35 +18,19 @@ public class ConsumeController {
     @Autowired
     ConsumeService consumeService;
 
-    @GetMapping("/test")
-    public String test(){
-        return "test";
-    }
-
-
-    @PostMapping("/inventoryClient")
-    public CommonResult inventoryClient(@RequestBody OrdersDto ordersDto){
-        return CommonResult.success(consumeService.hello1());
-    }
-
-    @PostMapping("/ordersClient")
-    public CommonResult ordersClient(@RequestBody OrdersDto ordersDto){
-        return CommonResult.success(consumeService.hello2());
-    }
-
-    @PostMapping("/getProductions")
-    public CommonResult getProductions(@RequestBody OrdersDto ordersDto){
+    @GetMapping("/getProductions")
+    public CommonResult getProductions(){
         return CommonResult.success(consumeService.getProductions());
     }
 
-    @PostMapping("/getOrders")
-    public CommonResult getOrders(@RequestBody OrdersDto ordersDto){
-        return CommonResult.success(consumeService.getOrders());
+    @GetMapping("/getOrders")
+    public CommonResult getOrders(){
+        return consumeService.getOrders();
     }
 
-    @GetMapping("/getOrderById{ordersId}")
-    public CommonResult getOrderById(@PathVariable int ordersId){
-        System.out.println(ordersId);
-        return consumeService.getOrderById(ordersId);
+    @PostMapping("/addOrders")
+    public CommonResult addOrders(@RequestBody OrdersDto ordersDto){
+        return CommonResult.success(consumeService.addOrders(ordersDto));
     }
+
 }

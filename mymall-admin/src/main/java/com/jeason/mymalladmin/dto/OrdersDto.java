@@ -13,5 +13,5 @@ import java.util.List;
 @Getter
 @Setter
 public class OrdersDto {
-    List<String> orders;
+    List<String> orders;//productionid:number
 }

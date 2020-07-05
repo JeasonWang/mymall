@@ -15,18 +15,19 @@ import java.util.List;
 @FeignClient(name = "mymall-inventory",path = "/inventory")
 public interface InventoryClient {
 
-    @GetMapping("/hello")
-    String hello();
-
     @GetMapping("/production")
-    List<Production> getProductions();
+    CommonResult getProductions();
 
     @PostMapping("/production")
     CommonResult insertProduction(@RequestBody Production production);
-
+    
     @PutMapping("/production")
     CommonResult updateProduction(@RequestBody Production production);
 
     @DeleteMapping("/production{productionId}")
     CommonResult deleteProduction(@PathVariable int productionId);
+    
+    @PostMapping("/production/deleteNProduction")
+    CommonResult deleteNProduction(@RequestParam("productionId") Integer productionId,@RequestParam("number") Integer number);
+    
 }

@@ -4,6 +4,7 @@ import com.jeason.mymallinventory.service.ProductionService;
 import com.jeason.mymallmbg.domain.CommonResult;
 import com.jeason.mymallmbg.model.Production;
 import com.jeason.mymallmbg.model.Production;
+import org.apache.ibatis.annotations.Param;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
@@ -19,13 +20,9 @@ import java.util.List;
 public class InventoryController {
     @Autowired
     ProductionService productionService;
-    @GetMapping("/hello")
-    public String hello(){
-        return "hello";
-    }
 
     @GetMapping("/production")
-    public List<Production> getProductions(){
+    public CommonResult getProductions(){
         return productionService.getProductions();
     }
 
@@ -42,5 +39,10 @@ public class InventoryController {
     @DeleteMapping("/production{productionId}")
     public CommonResult deleteProduction(@PathVariable int productionId){
         return CommonResult.success(productionService.deleteProduction(productionId));
+    }
+
+    @PostMapping("/production/deleteNProduction")
+    public CommonResult deleteNProduction(@RequestParam("productionId") Integer productionId,@RequestParam("number") Integer number){
+        return CommonResult.success(productionService.deleteNProduction(productionId,number));
     }
 }

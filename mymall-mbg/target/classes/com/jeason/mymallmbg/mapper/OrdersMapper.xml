@@ -96,11 +96,11 @@
       <include refid="Example_Where_Clause" />
     </if>
   </delete>
-  <insert id="insert" parameterType="com.jeason.mymallmbg.model.Orders">
+  <insert id="insert" parameterType="com.jeason.mymallmbg.model.Orders" useGeneratedKeys="true" keyProperty="orderid">
     insert into orders (orderId, orderNm)
     values (#{orderid,jdbcType=INTEGER}, #{ordernm,jdbcType=VARCHAR})
   </insert>
-  <insert id="insertSelective" parameterType="com.jeason.mymallmbg.model.Orders">
+  <insert id="insertSelective" parameterType="com.jeason.mymallmbg.model.Orders" useGeneratedKeys="true" keyProperty="orderid">
     insert into orders
     <trim prefix="(" suffix=")" suffixOverrides=",">
       <if test="orderid != null">

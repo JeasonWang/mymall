@@ -1,11 +1,10 @@
 package com.jeason.mymallinventory.service;
 
+import com.jeason.mymallmbg.domain.CommonResult;
 import com.jeason.mymallmbg.mapper.ProductionMapper;
 import com.jeason.mymallmbg.model.Production;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
-import java.util.List;
 
 /**
  * @Author: jeason
@@ -17,8 +16,8 @@ public class ProductionService {
     @Autowired
     ProductionMapper productionMapper;
 
-    public List<Production> getProductions(){
-        return productionMapper.selectByExample(null);
+    public CommonResult getProductions(){
+        return CommonResult.success(productionMapper.selectByExample(null));
     }
     public int insertProduction(Production production){
         int result = productionMapper.insert(production);
@@ -33,5 +32,13 @@ public class ProductionService {
     public int deleteProduction(int productionId){
         int result = productionMapper.deleteByPrimaryKey(productionId);
         return result;
+    }
+
+    public Object deleteNProduction(Integer productionId, Integer number) {
+        Production production = productionMapper.selectByPrimaryKey(productionId);
+        if(production.getNumber() - number >= 0)
+            production.setNumber(production.getNumber() - number);
+        else throw new RuntimeException("库存不足");
+        return productionMapper.updateByPrimaryKeySelective(production);
     }
 }
