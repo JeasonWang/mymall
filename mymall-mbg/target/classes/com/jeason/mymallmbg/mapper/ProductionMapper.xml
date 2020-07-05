@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.jeason.mymallmbg.mapper.ProductionMapper">
+  <resultMap id="BaseResultMap" type="com.jeason.mymallmbg.model.Production">
+    <id column="productionId" jdbcType="INTEGER" property="productionid" />
+    <result column="productionNm" jdbcType="VARCHAR" property="productionnm" />
+    <result column="number" jdbcType="INTEGER" property="number" />
+  </resultMap>
+  <sql id="Example_Where_Clause">
+    <where>
+      <foreach collection="oredCriteria" item="criteria" separator="or">
+        <if test="criteria.valid">
+          <trim prefix="(" prefixOverrides="and" suffix=")">
+            <foreach collection="criteria.criteria" item="criterion">
+              <choose>
+                <when test="criterion.noValue">
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue">
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue">
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue">
+                  and ${criterion.condition}
+                  <foreach close=")" collection="criterion.value" item="listItem" open="(" separator=",">
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Update_By_Example_Where_Clause">
+    <where>
+      <foreach collection="example.oredCriteria" item="criteria" separator="or">
+        <if test="criteria.valid">
+          <trim prefix="(" prefixOverrides="and" suffix=")">
+            <foreach collection="criteria.criteria" item="criterion">
+              <choose>
+                <when test="criterion.noValue">
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue">
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue">
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue">
+                  and ${criterion.condition}
+                  <foreach close=")" collection="criterion.value" item="listItem" open="(" separator=",">
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Base_Column_List">
+    productionId, productionNm, number
+  </sql>
+  <select id="selectByExample" parameterType="com.jeason.mymallmbg.model.ProductionExample" resultMap="BaseResultMap">
+    select
+    <if test="distinct">
+      distinct
+    </if>
+    <include refid="Base_Column_List" />
+    from production
+    <if test="_parameter != null">
+      <include refid="Example_Where_Clause" />
+    </if>
+    <if test="orderByClause != null">
+      order by ${orderByClause}
+    </if>
+  </select>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from production
+    where productionId = #{productionid,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+    delete from production
+    where productionId = #{productionid,jdbcType=INTEGER}
+  </delete>
+  <delete id="deleteByExample" parameterType="com.jeason.mymallmbg.model.ProductionExample">
+    delete from production
+    <if test="_parameter != null">
+      <include refid="Example_Where_Clause" />
+    </if>
+  </delete>
+  <insert id="insert" parameterType="com.jeason.mymallmbg.model.Production">
+    insert into production (productionId, productionNm, number
+      )
+    values (#{productionid,jdbcType=INTEGER}, #{productionnm,jdbcType=VARCHAR}, #{number,jdbcType=INTEGER}
+      )
+  </insert>
+  <insert id="insertSelective" parameterType="com.jeason.mymallmbg.model.Production">
+    insert into production
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="productionid != null">
+        productionId,
+      </if>
+      <if test="productionnm != null">
+        productionNm,
+      </if>
+      <if test="number != null">
+        number,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="productionid != null">
+        #{productionid,jdbcType=INTEGER},
+      </if>
+      <if test="productionnm != null">
+        #{productionnm,jdbcType=VARCHAR},
+      </if>
+      <if test="number != null">
+        #{number,jdbcType=INTEGER},
+      </if>
+    </trim>
+  </insert>
+  <select id="countByExample" parameterType="com.jeason.mymallmbg.model.ProductionExample" resultType="java.lang.Long">
+    select count(*) from production
+    <if test="_parameter != null">
+      <include refid="Example_Where_Clause" />
+    </if>
+  </select>
+  <update id="updateByExampleSelective" parameterType="map">
+    update production
+    <set>
+      <if test="record.productionid != null">
+        productionId = #{record.productionid,jdbcType=INTEGER},
+      </if>
+      <if test="record.productionnm != null">
+        productionNm = #{record.productionnm,jdbcType=VARCHAR},
+      </if>
+      <if test="record.number != null">
+        number = #{record.number,jdbcType=INTEGER},
+      </if>
+    </set>
+    <if test="_parameter != null">
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByExample" parameterType="map">
+    update production
+    set productionId = #{record.productionid,jdbcType=INTEGER},
+      productionNm = #{record.productionnm,jdbcType=VARCHAR},
+      number = #{record.number,jdbcType=INTEGER}
+    <if test="_parameter != null">
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByPrimaryKeySelective" parameterType="com.jeason.mymallmbg.model.Production">
+    update production
+    <set>
+      <if test="productionnm != null">
+        productionNm = #{productionnm,jdbcType=VARCHAR},
+      </if>
+      <if test="number != null">
+        number = #{number,jdbcType=INTEGER},
+      </if>
+    </set>
+    where productionId = #{productionid,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.jeason.mymallmbg.model.Production">
+    update production
+    set productionNm = #{productionnm,jdbcType=VARCHAR},
+      number = #{number,jdbcType=INTEGER}
+    where productionId = #{productionid,jdbcType=INTEGER}
+  </update>
+</mapper>

@@ -7,6 +7,11 @@
         <option value="$PROJECT_DIR$/mymall-admin/pom.xml" />
         <option value="$PROJECT_DIR$/mymall-common/pom.xml" />
         <option value="$PROJECT_DIR$/mymall-mbg/pom.xml" />
+        <option value="$PROJECT_DIR$/mymall-order/pom.xml" />
+        <option value="$PROJECT_DIR$/mymall-inventory/pom.xml" />
+        <option value="$PROJECT_DIR$/demo/pom.xml" />
+        <option value="$PROJECT_DIR$/mymall-security/pom.xml" />
+        <option value="$PROJECT_DIR$/mymall-user/pom.xml" />
       </list>
     </option>
   </component>

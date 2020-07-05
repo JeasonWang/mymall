@@ -1,0 +1,10 @@
+server:
+  port: 8002
+spring:
+  application:
+    name: mymall-demo
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8001/eureka/
+    registry-fetch-interval-seconds: 30

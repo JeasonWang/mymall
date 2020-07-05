@@ -11,8 +11,9 @@ import org.mybatis.generator.internal.util.StringUtility;
 import java.util.Properties;
 
 /**
- * 自定义注释生成器
- * Created by jeason on 2020/4/26.
+ * @Author: jeason
+ * @Description: 自定义代码注释
+ * @Date: 2020/6/27 16:34
  */
 public class CommentGenerator extends DefaultCommentGenerator {
     private boolean addRemarkComments = false;
