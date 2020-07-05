@@ -6,6 +6,8 @@
     <file url="file://$PROJECT_DIR$/mymall-admin/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mymall-common/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mymall-eureka/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mymall-gateway/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mymall-gateway/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mymall-inventory/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mymall-mbg/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mymall-order/src/main/java" charset="UTF-8" />

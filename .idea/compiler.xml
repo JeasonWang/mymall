@@ -15,6 +15,7 @@
         <module name="mymall-admin" />
         <module name="inventoryApi" />
         <module name="mymall-security" />
+        <module name="mymall-gateway" />
         <module name="mymall-common" />
         <module name="mymall-order" />
         <module name="mymall-inventory" />
@@ -28,6 +29,7 @@
       <module name="mymall-common" target="1.8" />
       <module name="mymall-credit" target="1.8" />
       <module name="mymall-eureka" target="1.8" />
+      <module name="mymall-gateway" target="1.8" />
       <module name="mymall-inventory" target="1.8" />
       <module name="mymall-mbg" target="1.8" />
       <module name="mymall-order" target="1.8" />
@@ -45,6 +47,7 @@
       <module name="mymall-common" options="-parameters" />
       <module name="mymall-credit" options="-parameters" />
       <module name="mymall-eureka" options="-parameters" />
+      <module name="mymall-gateway" options="-parameters" />
       <module name="mymall-inventory" options="-parameters" />
       <module name="mymall-mbg" options="-parameters" />
       <module name="mymall-order" options="-parameters" />

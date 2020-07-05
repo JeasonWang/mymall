@@ -8,6 +8,7 @@
       <module fileurl="file://$PROJECT_DIR$/mymall-admin/mymall-admin.iml" filepath="$PROJECT_DIR$/mymall-admin/mymall-admin.iml" />
       <module fileurl="file://$PROJECT_DIR$/mymall-common/mymall-common.iml" filepath="$PROJECT_DIR$/mymall-common/mymall-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/mymall-eureka/mymall-eureka.iml" filepath="$PROJECT_DIR$/mymall-eureka/mymall-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mymall-gateway/mymall-gateway.iml" filepath="$PROJECT_DIR$/mymall-gateway/mymall-gateway.iml" />
       <module fileurl="file://$PROJECT_DIR$/mymall-inventory/mymall-inventory.iml" filepath="$PROJECT_DIR$/mymall-inventory/mymall-inventory.iml" />
       <module fileurl="file://$PROJECT_DIR$/mymall-mbg/mymall-mbg.iml" filepath="$PROJECT_DIR$/mymall-mbg/mymall-mbg.iml" />
       <module fileurl="file://$PROJECT_DIR$/mymall-order/mymall-order.iml" filepath="$PROJECT_DIR$/mymall-order/mymall-order.iml" />
