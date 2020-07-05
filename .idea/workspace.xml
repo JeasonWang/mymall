@@ -1,63 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f2d1aa23-8680-424f-891f-1a0e3d640e3d" name="Default Changelist" comment="初步搭建">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_buffer_4_1_50_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_4_1_50_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_http2_4_1_50_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_http_4_1_50_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_socks_4_1_50_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_common_4_1_50_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_4_1_50_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_proxy_4_1_50_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_resolver_4_1_50_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_4_1_50_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_native_epoll_linux_x86_64_4_1_50_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_native_unix_common_4_1_50_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_projectreactor_netty_reactor_netty_0_9_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_reactor_netty_2_3_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_webflux_2_3_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_gateway_core_2_2_3_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_gateway_2_2_3_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webflux_5_2_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_synchronoss_cloud_nio_multipart_parser_1_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_synchronoss_cloud_nio_stream_storage_1_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mymall-common/src/main/java/com/jeason/mymallcommon/util/DateTimeUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_1_5_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inventoryApi/src/main/java/com/jeason/inventoryApi/clients/InventoryClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/inventoryApi/src/main/java/com/jeason/inventoryApi/clients/InventoryClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inventoryApi/target/classes/com/jeason/inventoryApi/clients/InventoryClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/inventoryApi/target/classes/com/jeason/inventoryApi/clients/InventoryClient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-admin/mymall-admin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/mymall-admin/mymall-admin.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-admin/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mymall-admin/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-admin/src/main/java/com/jeason/mymalladmin/controller/ConsumeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/mymall-admin/src/main/java/com/jeason/mymalladmin/controller/ConsumeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-admin/src/main/java/com/jeason/mymalladmin/dto/OrdersDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/mymall-admin/src/main/java/com/jeason/mymalladmin/dto/OrdersDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-admin/src/main/java/com/jeason/mymalladmin/service/ConsumeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/mymall-admin/src/main/java/com/jeason/mymalladmin/service/ConsumeService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-admin/target/classes/com/jeason/mymalladmin/controller/ConsumeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/mymall-admin/target/classes/com/jeason/mymalladmin/controller/ConsumeController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-admin/target/classes/com/jeason/mymalladmin/service/ConsumeService.class" beforeDir="false" afterPath="$PROJECT_DIR$/mymall-admin/target/classes/com/jeason/mymalladmin/service/ConsumeService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-common/mymall-common.iml" beforeDir="false" afterPath="$PROJECT_DIR$/mymall-common/mymall-common.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mymall-common/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-common/src/main/java/com/jeason/mymallcommon/Util/JwtTokenUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/mymall-common/src/main/java/com/jeason/mymallcommon/util/JwtTokenUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-common/src/main/java/com/jeason/mymallcommon/api/CommonResult.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-common/src/main/java/com/jeason/mymallcommon/api/ResultCode.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-common/target/classes/com/jeason/mymallcommon/api/CommonResult.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-common/target/classes/com/jeason/mymallcommon/api/ResultCode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-gateway/src/main/java/com/jeason/mymallgateway/MymallGatewayApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/mymall-gateway/src/main/java/com/jeason/mymallgateway/MymallGatewayApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-inventory/src/main/java/com/jeason/mymallinventory/controller/InventoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/mymall-inventory/src/main/java/com/jeason/mymallinventory/controller/InventoryController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-inventory/src/main/java/com/jeason/mymallinventory/service/ProductionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/mymall-inventory/src/main/java/com/jeason/mymallinventory/service/ProductionService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/com/jeason/mymallmbg/model/Orderdetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/mymall-mbg/src/main/java/com/jeason/mymallmbg/model/Orderdetails.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/java/com/jeason/mymallmbg/model/OrderdetailsExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/mymall-mbg/src/main/java/com/jeason/mymallmbg/model/OrderdetailsExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/resources/com/jeason/mymallmbg/mapper/OrderdetailsMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mymall-mbg/src/main/resources/com/jeason/mymallmbg/mapper/OrderdetailsMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/src/main/resources/com/jeason/mymallmbg/mapper/OrdersMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mymall-mbg/src/main/resources/com/jeason/mymallmbg/mapper/OrdersMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/target/classes/com/jeason/mymallmbg/mapper/OrderdetailsMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mymall-mbg/target/classes/com/jeason/mymallmbg/mapper/OrderdetailsMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/target/classes/com/jeason/mymallmbg/mapper/OrdersMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mymall-mbg/target/classes/com/jeason/mymallmbg/mapper/OrdersMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/target/classes/com/jeason/mymallmbg/model/Orderdetails.class" beforeDir="false" afterPath="$PROJECT_DIR$/mymall-mbg/target/classes/com/jeason/mymallmbg/model/Orderdetails.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-mbg/target/classes/com/jeason/mymallmbg/model/OrderdetailsExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/mymall-mbg/target/classes/com/jeason/mymallmbg/model/OrderdetailsExample$GeneratedCriteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-order/src/main/java/com/jeason/mymallorder/controller/OrdersController.java" beforeDir="false" afterPath="$PROJECT_DIR$/mymall-order/src/main/java/com/jeason/mymallorder/controller/OrdersController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mymall-order/src/main/java/com/jeason/mymallorder/service/OrdersService.java" beforeDir="false" afterPath="$PROJECT_DIR$/mymall-order/src/main/java/com/jeason/mymallorder/service/OrdersService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/orderApi/src/main/java/com/jeason/orderApi/clients/OrdersClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/orderApi/src/main/java/com/jeason/orderApi/clients/OrdersClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/orderApi/src/main/java/com/jeason/orderApi/fallback/OrdersFallback.java" beforeDir="false" afterPath="$PROJECT_DIR$/orderApi/src/main/java/com/jeason/orderApi/fallback/OrdersFallback.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/orderApi/target/classes/com/jeason/orderApi/clients/OrdersClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/orderApi/target/classes/com/jeason/orderApi/clients/OrdersClient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/orderApi/target/classes/com/jeason/orderApi/fallback/OrdersFallback.class" beforeDir="false" afterPath="$PROJECT_DIR$/orderApi/target/classes/com/jeason/orderApi/fallback/OrdersFallback.class" afterDir="false" />
+    <list default="true" id="f2d1aa23-8680-424f-891f-1a0e3d640e3d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/document/mymall.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,7 +51,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/mymall-gateway/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/document" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -226,7 +171,7 @@
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
@@ -262,7 +207,7 @@
       <workItem from="1590156690259" duration="3048000" />
       <workItem from="1590239977211" duration="1965000" />
       <workItem from="1593843915664" duration="1105000" />
-      <workItem from="1593845209906" duration="42422000" />
+      <workItem from="1593845209906" duration="42676000" />
     </task>
     <task id="LOCAL-00001" summary="搭建demo">
       <created>1589033864911</created>
@@ -362,7 +307,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593930315535</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="简单订单服务搭建，下一步实现事务，分布式事务，消息队列">
+      <created>1593944057611</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1593944057611</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -375,7 +327,8 @@
     <MESSAGE value="实现登录功能" />
     <MESSAGE value="添加swagger2" />
     <MESSAGE value="初步搭建" />
-    <option name="LAST_COMMIT_MESSAGE" value="初步搭建" />
+    <MESSAGE value="简单订单服务搭建，下一步实现事务，分布式事务，消息队列" />
+    <option name="LAST_COMMIT_MESSAGE" value="简单订单服务搭建，下一步实现事务，分布式事务，消息队列" />
   </component>
   <component name="WindowStateProjectService">
     <state x="338" y="85" key="#Project_Structure" timestamp="1593929612536">
@@ -407,11 +360,11 @@
     </state>
     <state x="499" y="164" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-2160.-154.1440.935/0.0.1536.834@0.0.1536.834" timestamp="1589033758789" />
     <state x="468" y="183" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.929@0.0.1440.929" timestamp="1593929599570" />
-    <state x="0" y="12" width="1250" height="857" key="CommitChangelistDialog2" timestamp="1593930349820">
+    <state x="0" y="12" width="1250" height="857" key="CommitChangelistDialog2" timestamp="1593944056259">
       <screen x="0" y="0" width="1440" height="929" />
     </state>
     <state x="0" y="11" key="CommitChangelistDialog2/-2160.-154.1440.935/0.0.1536.834@0.0.1536.834" timestamp="1589731111011" />
-    <state x="0" y="12" width="1250" height="857" key="CommitChangelistDialog2/0.0.1440.929@0.0.1440.929" timestamp="1593930349820" />
+    <state x="0" y="12" width="1250" height="857" key="CommitChangelistDialog2/0.0.1440.929@0.0.1440.929" timestamp="1593944056259" />
     <state width="452" height="466" key="DebuggerActiveHint" timestamp="1593940202347">
       <screen x="0" y="0" width="1440" height="929" />
     </state>
