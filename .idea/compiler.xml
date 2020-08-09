@@ -7,23 +7,26 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="demo" />
-        <module name="mymall-user" />
-        <module name="mymall-mbg" />
-        <module name="orderApi" />
-        <module name="mymall-eureka" />
-        <module name="mymall-admin" />
-        <module name="inventoryApi" />
-        <module name="mymall-security" />
-        <module name="mymall-gateway" />
         <module name="mymall-common" />
         <module name="mymall-order" />
         <module name="mymall-inventory" />
+        <module name="demo" />
+        <module name="orderApi" />
+        <module name="inventoryApi" />
+        <module name="mymall-mbg" />
+        <module name="mymall-portal" />
+        <module name="mymall-user" />
+        <module name="mymall-security" />
+        <module name="mymall-admin" />
+        <module name="mymall-payment" />
+        <module name="mymall-gateway" />
+        <module name="mymall-eureka" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="demo" target="1.8" />
       <module name="inventoryApi" target="1.8" />
+      <module name="mall-portal" target="1.8" />
       <module name="mymall" target="1.8" />
       <module name="mymall-admin" target="1.8" />
       <module name="mymall-common" target="1.8" />
@@ -33,6 +36,8 @@
       <module name="mymall-inventory" target="1.8" />
       <module name="mymall-mbg" target="1.8" />
       <module name="mymall-order" target="1.8" />
+      <module name="mymall-payment" target="1.8" />
+      <module name="mymall-portal" target="1.8" />
       <module name="mymall-security" target="1.8" />
       <module name="mymall-user" target="1.8" />
       <module name="orderApi" target="1.8" />
@@ -42,6 +47,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="demo" options="-parameters" />
       <module name="inventoryApi" options="-parameters" />
+      <module name="mall-portal" options="-parameters" />
       <module name="mymall" options="-parameters" />
       <module name="mymall-admin" options="-parameters" />
       <module name="mymall-common" options="-parameters" />
@@ -51,6 +57,8 @@
       <module name="mymall-inventory" options="-parameters" />
       <module name="mymall-mbg" options="-parameters" />
       <module name="mymall-order" options="-parameters" />
+      <module name="mymall-payment" options="-parameters" />
+      <module name="mymall-portal" options="-parameters" />
       <module name="mymall-security" options="-parameters" />
       <module name="mymall-user" options="-parameters" />
       <module name="orderApi" options="-parameters" />

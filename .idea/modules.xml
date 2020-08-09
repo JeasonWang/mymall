@@ -12,6 +12,8 @@
       <module fileurl="file://$PROJECT_DIR$/mymall-inventory/mymall-inventory.iml" filepath="$PROJECT_DIR$/mymall-inventory/mymall-inventory.iml" />
       <module fileurl="file://$PROJECT_DIR$/mymall-mbg/mymall-mbg.iml" filepath="$PROJECT_DIR$/mymall-mbg/mymall-mbg.iml" />
       <module fileurl="file://$PROJECT_DIR$/mymall-order/mymall-order.iml" filepath="$PROJECT_DIR$/mymall-order/mymall-order.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mymall-payment/mymall-payment.iml" filepath="$PROJECT_DIR$/mymall-payment/mymall-payment.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mymall-portal/mymall-portal.iml" filepath="$PROJECT_DIR$/mymall-portal/mymall-portal.iml" />
       <module fileurl="file://$PROJECT_DIR$/mymall-security/mymall-security.iml" filepath="$PROJECT_DIR$/mymall-security/mymall-security.iml" />
       <module fileurl="file://$PROJECT_DIR$/mymall-user/mymall-user.iml" filepath="$PROJECT_DIR$/mymall-user/mymall-user.iml" />
       <module fileurl="file://$PROJECT_DIR$/orderApi/orderApi.iml" filepath="$PROJECT_DIR$/orderApi/orderApi.iml" />

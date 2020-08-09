@@ -3,6 +3,7 @@ package com.jeason.mymallorder.controller;
 import com.jeason.mymallmbg.domain.CommonResult;
 import com.jeason.mymallmbg.model.Orderdetails;
 import com.jeason.mymallmbg.model.Orders;
+import com.jeason.mymallorder.domain.OrdersDto;
 import com.jeason.mymallorder.service.OrdersService;
 import org.apache.ibatis.annotations.Param;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -49,6 +50,12 @@ public class OrdersController {
     @PostMapping("/insertOrderDetails")
     public CommonResult insertOrderDetails(@RequestBody Orderdetails orderdetails){
         return CommonResult.success(ordersService.insertOrderDetails(orderdetails));
+    }
+
+    //生成订单
+    @PostMapping("/addOrders")
+    public CommonResult addOrders(@RequestBody OrdersDto ordersDto){
+        return CommonResult.success(ordersService.addOrders(ordersDto));
     }
 
     @DeleteMapping("/deleteOrderDetails")

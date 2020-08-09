@@ -2,6 +2,7 @@ package com.jeason.mymallinventory.controller;
 
 import com.jeason.mymallinventory.service.ProductionService;
 import com.jeason.mymallmbg.domain.CommonResult;
+import com.jeason.mymallmbg.domain.OrdersDto;
 import com.jeason.mymallmbg.model.Production;
 import com.jeason.mymallmbg.model.Production;
 import org.apache.ibatis.annotations.Param;
@@ -41,8 +42,10 @@ public class InventoryController {
         return CommonResult.success(productionService.deleteProduction(productionId));
     }
 
-    @PostMapping("/production/deleteNProduction")
-    public CommonResult deleteNProduction(@RequestParam("productionId") Integer productionId,@RequestParam("number") Integer number){
-        return CommonResult.success(productionService.deleteNProduction(productionId,number));
+    //删除商品
+    @DeleteMapping("/production/deleteNProduction")
+    public CommonResult deleteNProduction(@RequestBody OrdersDto ordersDto){
+        productionService.deleteNProduction(ordersDto);
+        return CommonResult.success(null);
     }
 }

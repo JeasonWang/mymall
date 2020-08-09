@@ -2,7 +2,83 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f2d1aa23-8680-424f-891f-1a0e3d640e3d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/document/mymall.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_rabbitmq_amqp_client_5_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_lettuce_lettuce_core_5_3_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_amqp_spring_amqp_2_2_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_amqp_spring_rabbit_2_2_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_amqp_2_3_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_redis_2_3_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_keyvalue_2_3_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_redis_2_3_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_retry_spring_retry_1_2_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_messaging_5_2_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_oxm_5_2_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mymall-admin/src/main/resources/application-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mymall-gateway/src/main/resources/application-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mymall-order/src/main/java/com/jeason/mymallorder/domain/OrdersDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mymall-payment/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mymall-payment/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mymall-payment/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mymall-payment/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mymall-payment/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mymall-payment/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mymall-payment/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mymall-payment/src/main/java/com/jeason/mymallpayment/MymallPaymentApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mymall-payment/src/main/java/com/jeason/mymallpayment/config/MyBatisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mymall-payment/src/main/java/com/jeason/mymallpayment/config/Swagger2Config.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mymall-payment/src/main/java/com/jeason/mymallpayment/controller/PaymentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mymall-payment/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mymall-payment/src/test/java/com/jeason/mymallpayment/MymallPaymentApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mymall-portal/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mymall-portal/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mymall-portal/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mymall-portal/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mymall-portal/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mymall-portal/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mymall-portal/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mymall-portal/src/main/java/com/jeason/mymallportal/MymallPortalApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mymall-portal/src/main/java/com/jeason/mymallportal/component/CancelOrderReceiver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mymall-portal/src/main/java/com/jeason/mymallportal/component/CancelOrderSender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mymall-portal/src/main/java/com/jeason/mymallportal/config/RabbitMqConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mymall-portal/src/main/java/com/jeason/mymallportal/config/Swagger2Config.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mymall-portal/src/main/java/com/jeason/mymallportal/controller/OmsPortalOrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mymall-portal/src/main/java/com/jeason/mymallportal/dto/OrderParam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mymall-portal/src/main/java/com/jeason/mymallportal/dto/QueueEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mymall-portal/src/main/java/com/jeason/mymallportal/dto/UserLoginDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mymall-portal/src/main/java/com/jeason/mymallportal/service/OmsPortalOrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mymall-portal/src/main/resources/application-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mymall-portal/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mymall-portal/src/test/java/com/jeason/mymallportal/MymallPortalApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mymall-user/src/main/java/com/jeason/mymalluser/Practice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventoryApi/src/main/java/com/jeason/inventoryApi/clients/InventoryClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/inventoryApi/src/main/java/com/jeason/inventoryApi/clients/InventoryClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventoryApi/target/classes/com/jeason/inventoryApi/clients/InventoryClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/inventoryApi/target/classes/com/jeason/inventoryApi/clients/InventoryClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mymall-admin/src/main/java/com/jeason/mymalladmin/controller/ConsumeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/mymall-admin/src/main/java/com/jeason/mymalladmin/controller/ConsumeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mymall-admin/src/main/java/com/jeason/mymalladmin/dto/OrdersDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/mymall-mbg/src/main/java/com/jeason/mymallmbg/domain/OrdersDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mymall-admin/src/main/java/com/jeason/mymalladmin/service/ConsumeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/mymall-admin/src/main/java/com/jeason/mymalladmin/service/ConsumeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mymall-admin/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mymall-admin/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mymall-admin/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mymall-admin/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mymall-admin/target/classes/com/jeason/mymalladmin/controller/ConsumeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/mymall-admin/target/classes/com/jeason/mymalladmin/controller/ConsumeController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mymall-admin/target/classes/com/jeason/mymalladmin/dto/OrdersDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mymall-admin/target/classes/com/jeason/mymalladmin/service/ConsumeService.class" beforeDir="false" afterPath="$PROJECT_DIR$/mymall-admin/target/classes/com/jeason/mymalladmin/service/ConsumeService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mymall-gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mymall-gateway/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mymall-inventory/src/main/java/com/jeason/mymallinventory/controller/InventoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/mymall-inventory/src/main/java/com/jeason/mymallinventory/controller/InventoryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mymall-inventory/src/main/java/com/jeason/mymallinventory/service/ProductionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/mymall-inventory/src/main/java/com/jeason/mymallinventory/service/ProductionService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mymall-order/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mymall-order/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mymall-order/src/main/java/com/jeason/mymallorder/controller/OrdersController.java" beforeDir="false" afterPath="$PROJECT_DIR$/mymall-order/src/main/java/com/jeason/mymallorder/controller/OrdersController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mymall-order/src/main/java/com/jeason/mymallorder/service/OrdersService.java" beforeDir="false" afterPath="$PROJECT_DIR$/mymall-order/src/main/java/com/jeason/mymallorder/service/OrdersService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mymall-security/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mymall-security/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mymall-user/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mymall-user/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orderApi/src/main/java/com/jeason/orderApi/clients/OrdersClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/orderApi/src/main/java/com/jeason/orderApi/clients/OrdersClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orderApi/src/main/java/com/jeason/orderApi/fallback/OrdersFallback.java" beforeDir="false" afterPath="$PROJECT_DIR$/orderApi/src/main/java/com/jeason/orderApi/fallback/OrdersFallback.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orderApi/target/classes/com/jeason/orderApi/clients/OrdersClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/orderApi/target/classes/com/jeason/orderApi/clients/OrdersClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orderApi/target/classes/com/jeason/orderApi/fallback/OrdersFallback.class" beforeDir="false" afterPath="$PROJECT_DIR$/orderApi/target/classes/com/jeason/orderApi/fallback/OrdersFallback.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +127,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/document" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/mymall-portal/src/main/java/com/jeason/mymallportal" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -61,22 +137,22 @@
     <option name="notificationShown" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\git\mymall\mymall-portal\src\main\java\com\jeason\mymallportal" />
+      <recent name="D:\git\mymall\mymall-portal\src\main\resources" />
+      <recent name="D:\git\mymall" />
+      <recent name="D:\git\mymall\mymall-gateway\src\main\resources" />
       <recent name="D:\git\mymall\mymall-admin\src\main\resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.jeason.inventoryApi.clients" />
-      <recent name="com.jeason.mymalladmin.clients" />
-      <recent name="com.jeason.mymallorder.config" />
-      <recent name="com.jeason.mymallinventory.config" />
-      <recent name="com.jeason.mymalluser.common.domain" />
+      <recent name="com.jeason.mymallportal.controller" />
+      <recent name="com.jeason.mymallportal.config" />
+      <recent name="com.jeason.mymalladmin.dto" />
+      <recent name="com.jeason.mymallmbg.domain" />
+      <recent name="com.jeason.mymallorder.domain" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\git\mymall\mymall-gateway\src\main\resources" />
-      <recent name="D:\git\mymall\mymall-mbg\src\main\java\com\jeason\mymallmbg" />
-      <recent name="D:\git\mymall\mymall-user\src\main\java\com\jeason\mymalluser" />
-      <recent name="D:\git\mymall\mymall-credit\src\main\java\com\jeason\mymallcredit" />
-      <recent name="D:\git\mymall\mymall-order\src\main\java\com\jeason\mymallorder" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\git\mymall\mymall-admin\src\main\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -87,7 +163,20 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.MymallOrderApplication">
+  <component name="RunManager" selected="Spring Boot.MymallPortalApplication">
+    <configuration name="Practice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jeason.mymalluser.Practice" />
+      <module name="mymall-user" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jeason.mymalluser.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="demo" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.jeason.demo.DemoApplication" />
@@ -132,6 +221,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MymallPaymentApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="mymall-payment" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jeason.mymallpayment.MymallPaymentApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MymallPortalApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="mymall-portal" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jeason.mymallportal.MymallPortalApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MymallSecurityApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="mymall-security" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.jeason.mymallsecurity.MymallSecurityApplication" />
@@ -147,6 +250,7 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.Practice" />
       <item itemvalue="Spring Boot.MymallAdminApplication" />
       <item itemvalue="Spring Boot.MymallOrderApplication" />
       <item itemvalue="Spring Boot.MymallInventoryApplication" />
@@ -155,7 +259,14 @@
       <item itemvalue="Spring Boot.MymallSecurityApplication" />
       <item itemvalue="Spring Boot.MymallUserApplication" />
       <item itemvalue="Spring Boot.MymallGatewayApplication" />
+      <item itemvalue="Spring Boot.MymallPaymentApplication" />
+      <item itemvalue="Spring Boot.MymallPortalApplication" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Practice" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -166,12 +277,11 @@
             <expand>
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Application" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
@@ -207,7 +317,18 @@
       <workItem from="1590156690259" duration="3048000" />
       <workItem from="1590239977211" duration="1965000" />
       <workItem from="1593843915664" duration="1105000" />
-      <workItem from="1593845209906" duration="42676000" />
+      <workItem from="1593845209906" duration="49737000" />
+      <workItem from="1594817739518" duration="439000" />
+      <workItem from="1595049610998" duration="1898000" />
+      <workItem from="1595082934301" duration="3142000" />
+      <workItem from="1595152439937" duration="1930000" />
+      <workItem from="1595258052759" duration="1924000" />
+      <workItem from="1595851490100" duration="5471000" />
+      <workItem from="1595943302019" duration="938000" />
+      <workItem from="1596037370588" duration="1037000" />
+      <workItem from="1596121707915" duration="1592000" />
+      <workItem from="1596360330184" duration="12867000" />
+      <workItem from="1596942636974" duration="2110000" />
     </task>
     <task id="LOCAL-00001" summary="搭建demo">
       <created>1589033864911</created>
@@ -314,7 +435,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593944057611</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="简单订单服务搭建，下一步实现事务，分布式事务，消息队列">
+      <created>1593944239043</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1593944239043</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -336,16 +464,17 @@
     </state>
     <state x="361" y="76" key="#Project_Structure/-2160.-154.1440.935/0.0.1536.834@0.0.1536.834" timestamp="1589036338888" />
     <state x="338" y="85" key="#Project_Structure/0.0.1440.929@0.0.1440.929" timestamp="1593929612536" />
-    <state x="209" y="81" width="1145" height="767" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1593913962951">
-      <screen x="0" y="0" width="1440" height="929" />
+    <state x="-1951" y="-107" width="1159" height="688" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1596378632788">
+      <screen x="-2160" y="-189" width="1440" height="935" />
     </state>
     <state x="223" y="73" width="1164" height="688" key="#com.intellij.execution.impl.EditConfigurationsDialog/-2160.-154.1440.935/0.0.1536.834@0.0.1536.834" timestamp="1589606143456" />
+    <state x="-1951" y="-107" width="1159" height="688" key="#com.intellij.execution.impl.EditConfigurationsDialog/-2160.-189.1440.935/0.0.1536.834@-2160.-189.1440.935" timestamp="1596378632788" />
     <state x="209" y="81" width="1145" height="767" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.929@0.0.1440.929" timestamp="1593913962951" />
-    <state x="538" y="141" key="#com.intellij.ide.util.MemberChooser" timestamp="1593936882181">
+    <state x="538" y="141" key="#com.intellij.ide.util.MemberChooser" timestamp="1593964820684">
       <screen x="0" y="0" width="1440" height="929" />
     </state>
     <state x="574" y="127" key="#com.intellij.ide.util.MemberChooser/-2160.-154.1440.935/0.0.1536.834@0.0.1536.834" timestamp="1589623045726" />
-    <state x="538" y="141" key="#com.intellij.ide.util.MemberChooser/0.0.1440.929@0.0.1440.929" timestamp="1593936882181" />
+    <state x="538" y="141" key="#com.intellij.ide.util.MemberChooser/0.0.1440.929@0.0.1440.929" timestamp="1593964820684" />
     <state x="436" y="382" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1593918944926">
       <screen x="0" y="0" width="1440" height="929" />
     </state>
@@ -355,134 +484,145 @@
       <screen x="0" y="0" width="1440" height="929" />
     </state>
     <state x="391" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1440.929@0.0.1440.929" timestamp="1593916661831" />
-    <state x="468" y="183" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1593929599570">
-      <screen x="0" y="0" width="1440" height="929" />
+    <state x="-1692" y="-5" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1596385679426">
+      <screen x="-2160" y="-189" width="1440" height="935" />
     </state>
     <state x="499" y="164" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-2160.-154.1440.935/0.0.1536.834@0.0.1536.834" timestamp="1589033758789" />
-    <state x="468" y="183" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.929@0.0.1440.929" timestamp="1593929599570" />
-    <state x="0" y="12" width="1250" height="857" key="CommitChangelistDialog2" timestamp="1593944056259">
+    <state x="-1692" y="-5" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-2160.-189.1440.935/0.0.1536.834@-2160.-189.1440.935" timestamp="1596385679426" />
+    <state x="468" y="183" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.929@0.0.1440.929" timestamp="1593948497108" />
+    <state x="0" y="12" width="1250" height="857" key="CommitChangelistDialog2" timestamp="1593944238579">
       <screen x="0" y="0" width="1440" height="929" />
     </state>
     <state x="0" y="11" key="CommitChangelistDialog2/-2160.-154.1440.935/0.0.1536.834@0.0.1536.834" timestamp="1589731111011" />
-    <state x="0" y="12" width="1250" height="857" key="CommitChangelistDialog2/0.0.1440.929@0.0.1440.929" timestamp="1593944056259" />
-    <state width="452" height="466" key="DebuggerActiveHint" timestamp="1593940202347">
+    <state x="0" y="12" width="1250" height="857" key="CommitChangelistDialog2/0.0.1440.929@0.0.1440.929" timestamp="1593944238579" />
+    <state width="452" height="466" key="DebuggerActiveHint" timestamp="1593964532198">
       <screen x="0" y="0" width="1440" height="929" />
     </state>
-    <state width="452" height="466" key="DebuggerActiveHint/0.0.1440.929@0.0.1440.929" timestamp="1593940202347" />
-    <state width="1065" height="245" key="GridCell.Tab.0.bottom" timestamp="1593943957506">
+    <state width="452" height="466" key="DebuggerActiveHint/0.0.1440.929@0.0.1440.929" timestamp="1593964532198" />
+    <state x="501" y="221" key="FileChooserDialogImpl" timestamp="1595260395335">
       <screen x="0" y="0" width="1440" height="929" />
+    </state>
+    <state x="501" y="221" key="FileChooserDialogImpl/0.0.1440.929@0.0.1440.929" timestamp="1595260395335" />
+    <state width="1065" height="407" key="GridCell.Tab.0.bottom" timestamp="1596390717640">
+      <screen x="-2160" y="-189" width="1440" height="935" />
     </state>
     <state width="1493" height="355" key="GridCell.Tab.0.bottom/-2160.-154.1440.935/0.0.1536.834@0.0.1536.834" timestamp="1589731397070" />
-    <state width="1065" height="245" key="GridCell.Tab.0.bottom/0.0.1440.929@0.0.1440.929" timestamp="1593943957506" />
-    <state width="1065" height="245" key="GridCell.Tab.0.center" timestamp="1593943957506">
-      <screen x="0" y="0" width="1440" height="929" />
+    <state width="1065" height="407" key="GridCell.Tab.0.bottom/-2160.-189.1440.935/0.0.1536.834@-2160.-189.1440.935" timestamp="1596390717640" />
+    <state width="1065" height="277" key="GridCell.Tab.0.bottom/0.0.1440.929@0.0.1440.929" timestamp="1595139921433" />
+    <state width="1065" height="407" key="GridCell.Tab.0.center" timestamp="1596390717640">
+      <screen x="-2160" y="-189" width="1440" height="935" />
     </state>
     <state width="1493" height="355" key="GridCell.Tab.0.center/-2160.-154.1440.935/0.0.1536.834@0.0.1536.834" timestamp="1589731397070" />
-    <state width="1065" height="245" key="GridCell.Tab.0.center/0.0.1440.929@0.0.1440.929" timestamp="1593943957506" />
-    <state width="1065" height="245" key="GridCell.Tab.0.left" timestamp="1593943957506">
-      <screen x="0" y="0" width="1440" height="929" />
+    <state width="1065" height="407" key="GridCell.Tab.0.center/-2160.-189.1440.935/0.0.1536.834@-2160.-189.1440.935" timestamp="1596390717640" />
+    <state width="1065" height="277" key="GridCell.Tab.0.center/0.0.1440.929@0.0.1440.929" timestamp="1595139921433" />
+    <state width="1065" height="407" key="GridCell.Tab.0.left" timestamp="1596390717640">
+      <screen x="-2160" y="-189" width="1440" height="935" />
     </state>
     <state width="1493" height="355" key="GridCell.Tab.0.left/-2160.-154.1440.935/0.0.1536.834@0.0.1536.834" timestamp="1589731397070" />
-    <state width="1065" height="245" key="GridCell.Tab.0.left/0.0.1440.929@0.0.1440.929" timestamp="1593943957506" />
-    <state width="1065" height="245" key="GridCell.Tab.0.right" timestamp="1593943957506">
-      <screen x="0" y="0" width="1440" height="929" />
+    <state width="1065" height="407" key="GridCell.Tab.0.left/-2160.-189.1440.935/0.0.1536.834@-2160.-189.1440.935" timestamp="1596390717640" />
+    <state width="1065" height="277" key="GridCell.Tab.0.left/0.0.1440.929@0.0.1440.929" timestamp="1595139921433" />
+    <state width="1065" height="407" key="GridCell.Tab.0.right" timestamp="1596390717640">
+      <screen x="-2160" y="-189" width="1440" height="935" />
     </state>
     <state width="1493" height="355" key="GridCell.Tab.0.right/-2160.-154.1440.935/0.0.1536.834@0.0.1536.834" timestamp="1589731397070" />
-    <state width="1065" height="245" key="GridCell.Tab.0.right/0.0.1440.929@0.0.1440.929" timestamp="1593943957506" />
-    <state width="1065" height="245" key="GridCell.Tab.1.bottom" timestamp="1593943957506">
-      <screen x="0" y="0" width="1440" height="929" />
+    <state width="1065" height="407" key="GridCell.Tab.0.right/-2160.-189.1440.935/0.0.1536.834@-2160.-189.1440.935" timestamp="1596390717640" />
+    <state width="1065" height="277" key="GridCell.Tab.0.right/0.0.1440.929@0.0.1440.929" timestamp="1595139921433" />
+    <state width="1065" height="407" key="GridCell.Tab.1.bottom" timestamp="1596390717641">
+      <screen x="-2160" y="-189" width="1440" height="935" />
     </state>
     <state width="1493" height="355" key="GridCell.Tab.1.bottom/-2160.-154.1440.935/0.0.1536.834@0.0.1536.834" timestamp="1589731397070" />
-    <state width="1065" height="245" key="GridCell.Tab.1.bottom/0.0.1440.929@0.0.1440.929" timestamp="1593943957506" />
-    <state width="1065" height="245" key="GridCell.Tab.1.center" timestamp="1593943957506">
-      <screen x="0" y="0" width="1440" height="929" />
+    <state width="1065" height="407" key="GridCell.Tab.1.bottom/-2160.-189.1440.935/0.0.1536.834@-2160.-189.1440.935" timestamp="1596390717641" />
+    <state width="1065" height="339" key="GridCell.Tab.1.bottom/0.0.1440.929@0.0.1440.929" timestamp="1593965469161" />
+    <state width="1065" height="407" key="GridCell.Tab.1.center" timestamp="1596390717640">
+      <screen x="-2160" y="-189" width="1440" height="935" />
     </state>
     <state width="1493" height="355" key="GridCell.Tab.1.center/-2160.-154.1440.935/0.0.1536.834@0.0.1536.834" timestamp="1589731397070" />
-    <state width="1065" height="245" key="GridCell.Tab.1.center/0.0.1440.929@0.0.1440.929" timestamp="1593943957506" />
-    <state width="1065" height="245" key="GridCell.Tab.1.left" timestamp="1593943957506">
-      <screen x="0" y="0" width="1440" height="929" />
+    <state width="1065" height="407" key="GridCell.Tab.1.center/-2160.-189.1440.935/0.0.1536.834@-2160.-189.1440.935" timestamp="1596390717640" />
+    <state width="1065" height="339" key="GridCell.Tab.1.center/0.0.1440.929@0.0.1440.929" timestamp="1593965469161" />
+    <state width="1065" height="407" key="GridCell.Tab.1.left" timestamp="1596390717640">
+      <screen x="-2160" y="-189" width="1440" height="935" />
     </state>
     <state width="1493" height="355" key="GridCell.Tab.1.left/-2160.-154.1440.935/0.0.1536.834@0.0.1536.834" timestamp="1589731397070" />
-    <state width="1065" height="245" key="GridCell.Tab.1.left/0.0.1440.929@0.0.1440.929" timestamp="1593943957506" />
-    <state width="1065" height="245" key="GridCell.Tab.1.right" timestamp="1593943957506">
-      <screen x="0" y="0" width="1440" height="929" />
+    <state width="1065" height="407" key="GridCell.Tab.1.left/-2160.-189.1440.935/0.0.1536.834@-2160.-189.1440.935" timestamp="1596390717640" />
+    <state width="1065" height="339" key="GridCell.Tab.1.left/0.0.1440.929@0.0.1440.929" timestamp="1593965469161" />
+    <state width="1065" height="407" key="GridCell.Tab.1.right" timestamp="1596390717640">
+      <screen x="-2160" y="-189" width="1440" height="935" />
     </state>
     <state width="1493" height="355" key="GridCell.Tab.1.right/-2160.-154.1440.935/0.0.1536.834@0.0.1536.834" timestamp="1589731397070" />
-    <state width="1065" height="245" key="GridCell.Tab.1.right/0.0.1440.929@0.0.1440.929" timestamp="1593943957506" />
-    <state width="1065" height="245" key="GridCell.Tab.2.bottom" timestamp="1593943736767">
+    <state width="1065" height="407" key="GridCell.Tab.1.right/-2160.-189.1440.935/0.0.1536.834@-2160.-189.1440.935" timestamp="1596390717640" />
+    <state width="1065" height="339" key="GridCell.Tab.1.right/0.0.1440.929@0.0.1440.929" timestamp="1593965469161" />
+    <state width="1397" height="274" key="GridCell.Tab.2.bottom" timestamp="1593965469147">
       <screen x="0" y="0" width="1440" height="929" />
     </state>
     <state width="1493" height="188" key="GridCell.Tab.2.bottom/-2160.-154.1440.935/0.0.1536.834@0.0.1536.834" timestamp="1589634462888" />
-    <state width="1065" height="245" key="GridCell.Tab.2.bottom/0.0.1440.929@0.0.1440.929" timestamp="1593943736767" />
-    <state width="1065" height="245" key="GridCell.Tab.2.center" timestamp="1593943736766">
+    <state width="1397" height="274" key="GridCell.Tab.2.bottom/0.0.1440.929@0.0.1440.929" timestamp="1593965469147" />
+    <state width="1397" height="274" key="GridCell.Tab.2.center" timestamp="1593965469147">
       <screen x="0" y="0" width="1440" height="929" />
     </state>
     <state width="1493" height="188" key="GridCell.Tab.2.center/-2160.-154.1440.935/0.0.1536.834@0.0.1536.834" timestamp="1589634462888" />
-    <state width="1065" height="245" key="GridCell.Tab.2.center/0.0.1440.929@0.0.1440.929" timestamp="1593943736766" />
-    <state width="1065" height="245" key="GridCell.Tab.2.left" timestamp="1593943736766">
+    <state width="1397" height="274" key="GridCell.Tab.2.center/0.0.1440.929@0.0.1440.929" timestamp="1593965469147" />
+    <state width="1397" height="274" key="GridCell.Tab.2.left" timestamp="1593965469147">
       <screen x="0" y="0" width="1440" height="929" />
     </state>
     <state width="1493" height="188" key="GridCell.Tab.2.left/-2160.-154.1440.935/0.0.1536.834@0.0.1536.834" timestamp="1589634462888" />
-    <state width="1065" height="245" key="GridCell.Tab.2.left/0.0.1440.929@0.0.1440.929" timestamp="1593943736766" />
-    <state width="1065" height="245" key="GridCell.Tab.2.right" timestamp="1593943736767">
+    <state width="1397" height="274" key="GridCell.Tab.2.left/0.0.1440.929@0.0.1440.929" timestamp="1593965469147" />
+    <state width="1397" height="274" key="GridCell.Tab.2.right" timestamp="1593965469147">
       <screen x="0" y="0" width="1440" height="929" />
     </state>
     <state width="1493" height="188" key="GridCell.Tab.2.right/-2160.-154.1440.935/0.0.1536.834@0.0.1536.834" timestamp="1589634462888" />
-    <state width="1065" height="245" key="GridCell.Tab.2.right/0.0.1440.929@0.0.1440.929" timestamp="1593943736767" />
+    <state width="1397" height="274" key="GridCell.Tab.2.right/0.0.1440.929@0.0.1440.929" timestamp="1593965469147" />
     <state x="270" y="0" key="SettingsEditor" timestamp="1589080770844">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="270" y="0" key="SettingsEditor/-2160.-154.1440.935/0.0.1536.834@0.0.1536.834" timestamp="1589080770844" />
-    <state x="338" y="168" key="Vcs.Push.Dialog.v2" timestamp="1593930394381">
+    <state x="338" y="168" key="Vcs.Push.Dialog.v2" timestamp="1593944256965">
       <screen x="0" y="0" width="1440" height="929" />
     </state>
     <state x="361" y="151" key="Vcs.Push.Dialog.v2/-2160.-154.1440.935/0.0.1536.834@0.0.1536.834" timestamp="1589731129252" />
-    <state x="338" y="168" key="Vcs.Push.Dialog.v2/0.0.1440.929@0.0.1440.929" timestamp="1593930394381" />
+    <state x="338" y="168" key="Vcs.Push.Dialog.v2/0.0.1440.929@0.0.1440.929" timestamp="1593944256965" />
     <state x="517" y="383" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1593873966236">
       <screen x="0" y="0" width="1440" height="929" />
     </state>
     <state x="517" y="383" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.929@0.0.1440.929" timestamp="1593873966236" />
-    <state x="419" y="167" width="773" height="669" key="find.popup" timestamp="1593926081056">
-      <screen x="0" y="0" width="1440" height="929" />
+    <state x="-1741" y="-55" width="773" height="801" key="find.popup" timestamp="1596364417545">
+      <screen x="-2160" y="-189" width="1440" height="935" />
     </state>
     <state x="447" y="150" width="782" height="600" key="find.popup/-2160.-154.1440.935/0.0.1536.834@0.0.1536.834" timestamp="1589728518557" />
+    <state x="-1741" y="-55" width="773" height="801" key="find.popup/-2160.-189.1440.935/0.0.1536.834@-2160.-189.1440.935" timestamp="1596364417545" />
+    <state x="419" y="167" width="773" height="669" key="find.popup/0.0.1440.929/-1920.160.1536.834@0.0.1440.929" timestamp="1595856574395" />
     <state x="419" y="167" width="773" height="669" key="find.popup/0.0.1440.929@0.0.1440.929" timestamp="1593926081056" />
-    <state x="216" y="122" key="new project wizard" timestamp="1593930134703">
+    <state x="139" y="123" key="new project wizard" timestamp="1596040274997">
       <screen x="0" y="0" width="1440" height="929" />
     </state>
     <state x="178" y="119" key="new project wizard/-2160.-154.1440.935/0.0.1536.834@0.0.1536.834" timestamp="1589034425621" />
-    <state x="216" y="122" key="new project wizard/0.0.1440.929@0.0.1440.929" timestamp="1593930134703" />
+    <state x="139" y="123" key="new project wizard/0.0.1440.929/-1920.160.1536.834@0.0.1440.929" timestamp="1596040274997" />
+    <state x="216" y="122" key="new project wizard/0.0.1440.929@0.0.1440.929" timestamp="1593965126064" />
     <state x="362" y="192" width="700" height="530" key="recent.locations.popup" timestamp="1593925532705">
       <screen x="0" y="0" width="1440" height="929" />
     </state>
     <state x="362" y="192" width="700" height="530" key="recent.locations.popup/0.0.1440.929@0.0.1440.929" timestamp="1593925532705" />
+    <state x="423" y="93" key="refactoring.ChangeSignatureDialog" timestamp="1593948461324">
+      <screen x="0" y="0" width="1440" height="929" />
+    </state>
+    <state x="423" y="93" key="refactoring.ChangeSignatureDialog/0.0.1440.929@0.0.1440.929" timestamp="1593948461324" />
     <state x="425" y="189" key="run.anything.popup" timestamp="1589605081276">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="425" y="189" key="run.anything.popup/-2160.-154.1440.935/0.0.1536.834@0.0.1536.834" timestamp="1589605081276" />
-    <state x="404" y="173" width="670" height="756" key="search.everywhere.popup" timestamp="1593943576285">
-      <screen x="0" y="0" width="1440" height="929" />
+    <state x="-1756" y="-15" width="672" height="761" key="search.everywhere.popup" timestamp="1596384649331">
+      <screen x="-2160" y="-189" width="1440" height="935" />
     </state>
     <state x="431" y="155" width="672" height="678" key="search.everywhere.popup/-2160.-154.1440.935/0.0.1536.834@0.0.1536.834" timestamp="1589632414708" />
+    <state x="-1756" y="-15" width="672" height="761" key="search.everywhere.popup/-2160.-189.1440.935/0.0.1536.834@-2160.-189.1440.935" timestamp="1596384649331" />
     <state x="404" y="173" width="670" height="756" key="search.everywhere.popup/0.0.1440.929@0.0.1440.929" timestamp="1593943576285" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/mymall-admin/src/main/java/com/jeason/mymalladmin/service/ConsumeService.java</url>
-          <line>46</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/mymall-admin/src/main/java/com/jeason/mymalladmin/service/ConsumeService.java</url>
-          <line>49</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/mymall-order/src/main/java/com/jeason/mymallorder/service/OrdersService.java</url>
-          <line>33</line>
-          <option name="timeStamp" value="8" />
+          <url>file://$PROJECT_DIR$/mymall-inventory/src/main/java/com/jeason/mymallinventory/service/ProductionService.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

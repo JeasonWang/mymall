@@ -1,8 +1,8 @@
 package com.jeason.mymalladmin.controller;
 
-import com.jeason.mymalladmin.dto.OrdersDto;
 import com.jeason.mymalladmin.service.ConsumeService;
 import com.jeason.mymallmbg.domain.CommonResult;
+import com.jeason.mymallmbg.domain.OrdersDto;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

@@ -1,8 +1,9 @@
-package com.jeason.mymalladmin.dto;
+package com.jeason.mymallorder.domain;
 
 import lombok.Getter;
 import lombok.Setter;
 
+import java.io.Serializable;
 import java.util.List;
 
 /**
@@ -12,6 +13,6 @@ import java.util.List;
  */
 @Getter
 @Setter
-public class OrdersDto {
+public class OrdersDto implements Serializable {
     List<String> orders;//productionid:number
 }

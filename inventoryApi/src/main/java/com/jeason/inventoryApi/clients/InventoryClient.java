@@ -1,6 +1,7 @@
 package com.jeason.inventoryApi.clients;
 
 import com.jeason.mymallmbg.domain.CommonResult;
+import com.jeason.mymallmbg.domain.OrdersDto;
 import com.jeason.mymallmbg.model.Production;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.*;
@@ -26,8 +27,8 @@ public interface InventoryClient {
 
     @DeleteMapping("/production{productionId}")
     CommonResult deleteProduction(@PathVariable int productionId);
-    
-    @PostMapping("/production/deleteNProduction")
-    CommonResult deleteNProduction(@RequestParam("productionId") Integer productionId,@RequestParam("number") Integer number);
+
+    @DeleteMapping("/production/deleteNProduction")
+    CommonResult deleteNProduction(@RequestBody OrdersDto ordersDto);
     
 }

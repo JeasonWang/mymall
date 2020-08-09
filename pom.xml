@@ -25,6 +25,7 @@
         <module>mymall-eureka</module>
         <module>mymall-security</module>
         <module>mymall-user</module>
+        <module>mymall-portal</module>
         <module>demo</module>
         <module>orderApi</module>
         <module>inventoryApi</module>

@@ -1,6 +1,7 @@
 package com.jeason.orderApi.clients;
 
 import com.jeason.mymallmbg.domain.CommonResult;
+import com.jeason.mymallmbg.domain.OrdersDto;
 import com.jeason.mymallmbg.model.Orderdetails;
 import com.jeason.mymallmbg.model.Orders;
 import com.jeason.orderApi.fallback.OrdersFallback;
@@ -35,4 +36,8 @@ public interface OrdersClient {
 
     @DeleteMapping("/deleteOrderDetails")
     CommonResult deleteOrderDetails(@RequestBody Orderdetails orderdetails);
+
+    //生成订单
+    @PostMapping("/addOrders")
+    CommonResult addOrders(@RequestBody OrdersDto ordersDto);
 }

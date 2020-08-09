@@ -38,6 +38,10 @@
                 </exclusion>
             </exclusions>
         </dependency>
+        <dependency>
+            <groupId>com.jeason</groupId>
+            <artifactId>mymall-common</artifactId>
+        </dependency>
     </dependencies>
 
     <build>

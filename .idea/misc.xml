@@ -13,7 +13,14 @@
         <option value="$PROJECT_DIR$/mymall-security/pom.xml" />
         <option value="$PROJECT_DIR$/mymall-user/pom.xml" />
         <option value="$PROJECT_DIR$/mymall-gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/mymall-payment/pom.xml" />
+        <option value="$PROJECT_DIR$/mymall-portal/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/mall-portal/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
